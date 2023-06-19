@@ -1,0 +1,366 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  font-family: Comfortaa
+}
+/* #9800ff  8536c9   hover 9336e3*/
+
+/* PAGE 1 STARTS */
+.pg1{
+  height: 800px;
+  width: 100%
+}
+.pg1 img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 800px;
+}
+#navbar{
+  /* background-color: grey; */
+  height: 80px;
+  width: auto;
+  padding: 20px 49px;
+}
+
+#logo{
+  text-decoration: none;
+  color: white;
+  font-size: 3.5vw;
+  font-family: 'Sofia', cursive;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.navitem{
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px;
+  font-weight: bold;
+}
+.navitem:hover{
+  color: #9800ff;
+}
+
+#signin{
+  float: right;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+#signin:hover{
+  background-color: #9800ff;
+  color: white;
+}
+.pg1content{
+  width: 35%;
+  height: 400px;
+  /* background-color: blue; */
+  margin: 100px 0 0 100px;
+  padding: 20px;
+  color: white;
+}
+.pg1content h1{
+  font-size: 80px;
+  font-family: 'Averia Serif Libre', cursive;
+  margin-bottom: 20px;
+}
+.pg1content p{
+  font-family: Roboto mono;
+}
+.pg1content h2{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.pg1content a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 20px 35px;
+  border-radius: 30px;
+  box-shadow: inset 0 0 15px #9800ff;
+}
+.pg1content a:hover{
+  box-shadow: 0 0 15px #9800ff;
+  background-color: #9800ff;
+}
+/* PAGE 2 STARTS */
+.pg2{
+  background-color: #1a1a1a;
+  color: white;
+  height: 600px;
+  text-align: left;
+  padding: 40px 100px;
+}
+.pg2 h1{
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+}
+
+.pg2div1{
+  float: left;
+  margin-right: 40px;
+  padding: 60px;
+  width: 35%;
+  height: 300px;
+  /* background-color: green; */
+  border: 1px solid white;
+}
+.pg2div1 h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.pg2div1 li{
+  margin: 15px 0;
+  text-align: left;
+  font-size: 17px;
+}
+.pg2div2{
+  float: left;
+  padding: 60px;
+  width: 35%;
+  height: 300px;
+  background-color: #9800ff;
+}
+.pg2div2 h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.pg2div2 li{
+  margin: 15px 0;
+  text-align: left;
+  font-size: 17px;
+}
+/* PAGE 3 STARTS */
+.pg3{
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  height: 700px;
+}
+.pg3 h1{
+  padding: 30px;
+  font-size: 50px;
+}
+.pg3 h3{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.pg3div{
+  width: 65%;
+  height: 600px;
+  /* background-color: grey; */
+  margin: 10px auto;
+  padding: 10px 30px;
+}
+.pg3Q a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.pg3div p{
+  display: none;
+  border: 3px dotted #9800ff;
+  border-radius: 10px;
+  padding: 20px 10px;
+  line-height: 23px;
+  /* letter-spacing: 1px; */
+}
+
+.pg3Q{
+  height: 30px;
+  /* width: 80%; */
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 20px 0 10px;
+  /* background-color: green; */
+  text-align: left;
+  cursor: pointer;
+}
+.pg3Q i{
+  float: right;
+  margin-right: 20px;
+}
+/* PAGE 4 STARTS */
+.pg4{
+  background-color: #1a1a1a;
+  color: white;
+  height: 550px;
+  padding:50px 30px;
+  text-align: center;
+}
+.pg4 h1{
+  font-size: 50px;
+  margin-top:  20px;
+}
+.pg4 p{
+  margin: 30px 0 50px;
+  font-size: 19px;
+}
+.pg4div{
+  height: 200px;
+  width: 26%;
+  float: left;
+  /* background-color: grey; */
+  margin-left: 55px;
+  text-align: center;
+  padding: 40px 4px;
+}
+.pg4div i{
+  background-color: #9800ff;
+  border-radius: 100%;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+.pg4div p{
+  margin-top: 30px;
+  opacity: 70%;
+  font-size: 15px;
+}
+/* PAGE 5 STARTS */
+.pg5{
+  background-image: url("Images/pg5bg4.jpg");
+  background-size: cover;
+  color: white;
+  /* width: 100%; */
+  height: 680px;
+  padding: 30px 0 40px 40px;
+  position: relative;
+}
+.pg5 h1{
+  font-size: 90px;
+  font-family: "Averia serif libre";
+}
+.pg5 h2{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 50px;
+}
+/* PAGE 6 STARTS */
+.pg6{
+  /* background-color: #1a1a1a; */
+  background-image: url("Images/pg6bgfinal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 600px;
+  text-align: center;
+  padding: 40px;
+}
+.pg6 h1{
+  font-size: 60px;
+  margin-top: 20px;
+}
+.pg6content{
+  margin: 10px auto;
+  height: 450px;
+  width: 55%;
+  /* background-color: red; */
+  /* border: 1px solid white; */
+  position: relative;
+}
+.pg6content img{
+  height: 70px;
+  width: 70px;
+}
+#facebook{
+  position: absolute;
+  left: 60px;
+  top: 45px;
+  background-color: #9800ff;
+  /* padding: 15px 15px 5px; */
+  border-radius: 50%;
+  /* border: 2px dotted #8100ff; */
+}
+
+#instagram{
+  position: absolute;
+  left: 190px;
+  bottom: 30px;
+  background-color: #9800ff;
+  /* padding: 15px 15px 12px; */
+  border-radius: 50%;
+  /* border: 2px dotted #8100ff; */
+}
+#gmail{
+  position: absolute;
+  right: 85px;
+  top: 50px;
+  background-color: #9800ff;
+  border-radius: 50%;
+}
+#twitter{
+  position: absolute;
+  right: 55px;
+  bottom: 15px;
+  background-color: #9800ff;
+  border-radius: 50%;
+}
+/* FOOTER STARTS */
+
+.footer{
+  color: black;
+  height: 500px;
+  /* padding: 30px 40px; */
+  position: relative;
+}
+.footer img{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  opacity: 70%;
+  z-index: -1;
+}
+.footer h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.footer a{
+  margin: 15px 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  line-height: 40px;
+  /* opacity: 80%; */
+}
+.footer a:hover{
+  color: #4f0085;
+}
+
+.footerdiv{
+  width: 25%;
+  height: 240px;
+  float: left;
+  /* border: 2px solid white; */
+  margin: 30px 0px 0 30px;
+  padding: 30px;
+}
+.footerdiv i{
+  margin: 10px;
+  color: #4f0085;
+}
+.footerdiv i:hover{
+  color: #9800ff;
+}
+
+/* THE END */
