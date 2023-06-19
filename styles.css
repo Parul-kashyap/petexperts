@@ -344,7 +344,7 @@ body{
   /* opacity: 80%; */
 }
 .footer a:hover{
-  color: #4f0085;
+  color: #9800ff;
 }
 
 .footerdiv{
@@ -357,7 +357,7 @@ body{
 }
 .footerdiv i{
   margin: 10px;
-  color: #4f0085;
+  color: #9800ff;
 }
 .footerdiv i:hover{
   color: #9800ff;
