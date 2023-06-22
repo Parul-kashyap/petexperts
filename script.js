@@ -61,3 +61,20 @@ function faqQ4(){
     pg3height.style.height="1050px";
   }
 }
+
+
+//=================================== GO ON TOP BUTTON CODE ================================
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    document.getElementById("gotopbtn").style.display = "block";
+  } else {
+    document.getElementById("gotopbtn").style.display = "none";
+  }
+}
+
+function goToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

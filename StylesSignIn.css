@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+/* #logo{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 3.5vw;
+  font-family: 'Sofia', cursive;
+  font-weight: bold;
+  margin-right: 50px;
+} */
+
+.signin{
+  height: 300px;
+  width: 30%;
+  background-color: grey;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
