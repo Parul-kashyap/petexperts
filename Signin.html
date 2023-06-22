@@ -24,12 +24,20 @@
   </head>
   <body>
     <div class="navbar">
-      <a id="logo" href="#">Pet Experts</a>
+      <a id="logo" href="#" title="Pet Experts"><img src="Images/logofinalcrop.png" alt="logo"> </a>
+      <a href="index.html"> <i class="fa fa-close fa-2x" title="Close"></i> </a>
     </div>
 
-    <div class="signin">
-      <h1>Sign In</h1>
-    </div>
-
+    <form class="login">
+      <h1>Log in</h1>
+      <hr>
+      <p class="inputHeading">Email</p>
+      <input type="text" name="email"> <br><br>
+      <p class="inputHeading">Password</p>
+      <input type="password" name="password">
+      <a id="forgetPassword" href="#">Forget Password?</a>
+      <button id="loginbtn" type="submit" name="button">Log in</button>
+      <p class="signupPara">need an account? <a class="signup-link" href="#">sign up</a> </p>
+    </form>
   </body>
 </html>
