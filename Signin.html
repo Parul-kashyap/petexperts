@@ -21,23 +21,48 @@
     <!--  FAVICON -->
     <link rel="icon" href="Images/icon1.ico">
 
+
+    <!--=============================== SCRIPTS EMAIL.JS=================== -->
+    <!-- MY SCRIPT -->
+    <script src="signInscript.js"></script>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("MBn6Lh-xiGhjtaxDs");
+    })();
+    </script>
+
   </head>
   <body>
+
     <div class="navbar">
       <a id="logo" href="#" title="Pet Experts"><img src="Images/logofinalcrop.png" alt="logo"> </a>
       <a href="index.html"> <i class="fa fa-close fa-2x" title="Close"></i> </a>
     </div>
 
     <form class="login">
-      <h1>Log in</h1>
+      <h1>Book Free Trial</h1>
       <hr>
-      <p class="inputHeading">Email</p>
-      <input type="text" name="email"> <br><br>
-      <p class="inputHeading">Password</p>
-      <input type="password" name="password">
-      <a id="forgetPassword" href="#">Forget Password?</a>
-      <button id="loginbtn" type="submit" name="button">Log in</button>
-      <p class="signupPara">need an account? <a class="signup-link" href="#">sign up</a> </p>
+      <p class="inputHeading">Full Name</p>
+      <input id="fullname" type="text" name="name" placeholder="Enter Your Full Name"> <br><br>
+
+      <p class="inputHeading">Phone Number</p>
+      <input id="phone_no" type="tel" name="number" placeholder="Enter Your Phone Number"> <br><br>
+
+      <p class="inputHeading">Trial Date</p>
+      <input id="trial_date" type="date" name="date" placeholder="Date"> <br><br>
+
+      <p class="inputHeading">Address</p>
+      <input id="address" name="address" placeholder="Enter Your Full Address">
+
+      <button onclick="SendMail(); reset(); return false" id="loginbtn" type="submit" name="button">Book Now</button>
+      <!-- <p class="signupPara">need an account? <a class="signup-link" href="#">sign up</a> </p> -->
     </form>
+
+
   </body>
 </html>
