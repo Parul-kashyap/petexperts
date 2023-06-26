@@ -20,16 +20,18 @@
   </head>
   <body>
     <!-- PAGE 1 STARTS -->
-    <div class="pg1">
+    <div id="pg1">
       <img class="pg1bgimg" src="Images/stiker5.jpg" alt="BG IMG">
         <div id="navbar">
             <a id="logo" href="#" title="Pet Experts"><img src="Images/logofinalcrop.png" alt="logo"></a>
+            <!-- <h2 style="color:white; font-family:Sofia;">Pet Experts</h2> -->
             <a class="navitem" href="#">About</a>
-            <a class="navitem" href="#">Services</a>
-            <a class="navitem" href="#">Training</a>
-            <a class="navitem" href="#">Accessories</a>
-            <a class="navitem" href="#">Medi-Care</a>
-            <a id="signin" href="Signin.html">Book a Free Session <i class="fa fa-arrow-right"></i> </a>
+            <a class="navitem" href="#pg2_1">Dog Walking</a>
+            <a class="navitem" href="#">Dog Training</a>
+            <a class="navitem" href="#">Pet Grooming</a>
+            <!-- <a class="navitem" href="#">Medi-Care</a> -->
+            <a id="bookbtn" href="Book.html">Book a Free Session <i class="fa fa-arrow-right"></i> </a>
+
         </div>
         <div class="pg1content">
           <h1>Your Pet's Care Center</h1>
@@ -39,8 +41,8 @@
         </div>
     </div>  <!-- PAGE 1 ENDS -->
     <hr style="color:white; height:2px">
-    <!-- PAGE 2 STARTS -->
-    <div class="pg2">
+    <!--========================== PAGE 2 STARTS =================================-->
+    <div id="pg2">
       <h1>How to take care of your pet?</h1>
       <div class="pg2div1">
         <h2>Pet Training</h2>
@@ -67,104 +69,135 @@
     </div>
     <!-- PAGE 2 ENDS -->
     <hr style="color:white; height:2px">
-    <!-- PAGE 3 STARTS -->
-    <div id="pg3id" class="pg3">
+    <!--====================== PAGE 2.1 STARTS =================================-->
+       <div id="pg2_1">
+          <!-- <img src="Images/signInbg2.jpg" height="700px" width="100%" alt="Background Image"> -->
+          <h1>Our Monthly Packages</h1>
+          <div class="pg2_1div">
+             <h2>Dog Walking/Exercise</h2>
+             <p>Monthly | 26 Sessions | Once in a day | Morning or Evening</p>
+             <ul>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; 30 Minutes walk </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; Live Location Tracking </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; Professional Dog Trainers/Walkers Only </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; Distance Covered </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; Photo Updates </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; Daily Report Card </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; Sunday Off </li>
+                <li> <i class="fa fa-check-circle"></i>&nbsp; 100% Money Back Guarantee for remaining sessions </li>
+
+             </ul>
+             <h3 style="color:red; margin-top:30px;">Price &nbsp;<del>&#8377;9,999/-</del></h3>
+             <h3 style="color:#00cd00;">Special Offer &nbsp; &#8377;3399/-</h3>
+             <a href="#">Book Now</a>
+          </div>
+       </div>
+
+    <!-- PAGE 2.1 ENDS -->
+    <hr style="color:white; height:2px">
+    <!--========================= PAGE 3 STARTS =================================-->
+    <div id="pg3">
         <div class="pg3div">
             <h1>FAQ's</h1>
             <h3>Frequently Asked Questions</h3>
 
             <!--========= QUESTiON 1 =======-->
             <div id="pg3Q1" class="pg3Q" onclick="faqQ1()">
-              <a>What is the number 1 trainable dog? <i class="fa fa-chevron-down"></i> </a>
+              <a>Why should I go for Pet Experts? <i class="fa fa-chevron-down"></i> </a>
             </div>
-              <p id="pg3Ans1">ANSWER : Border Collie: A workaholic, this breed is the world's premier sheep herder, prized for its intelligence, extraordinary instinct, and working ability.</p>
+              <p id="pg3Ans1">ANSWER : Pet Experts offers a wide range of services to cater to various pet needs, including grooming, boarding, training and more. This comprehensive approach allows pet owners to find all the services they require in one place.</p>
 
               <!--========= QUESTiON 2 =======-->
             <div id="pg3Q2" class="pg3Q" onclick="faqQ2()">
-              <a>Who is the trainer of my Pet? <i class="fa fa-chevron-down"></i> </a>
+              <a>Which regions do you cover with your service offerings? <i class="fa fa-chevron-down"></i> </a>
             </div>
-              <p id="pg3Ans2">ANSWER : Sample Answer </p>
+              <p id="pg3Ans2">ANSWER : Experience our exceptional services in Delhi and the broader Delhi NCR region, where we strive to bring joy and satisfaction to all our valued customers. </p>
 
               <!--========= QUESTiON 3 =======-->
             <div id="pg3Q3" class="pg3Q" onclick="faqQ3()">
-              <a>Why do dogs lick you? <i class="fa fa-chevron-down"></i> </a>
+              <a>Who is the trainer of my Pet? <i class="fa fa-chevron-down"></i> </a>
             </div>
-              <p id="pg3Ans3">ANSWER : Your dog may lick you to say they love you, to get your attention, to help soothe themselves if they're stressed, to show empathy or because you taste good to them!</p>
+              <p id="pg3Ans3">ANSWER : Pet Experts boasts a team of knowledgeable professionals who are experts in pet care, ensuring that your pets receive the highest level of care and attention.</p>
               <!--========= QUESTiON 4 =======-->
 
             <div id="pg3Q4" class="pg3Q" onclick="faqQ4()">
-              <a>Can I give curd to my dog? <i class="fa fa-chevron-down"></i> </a>
+              <a>What are the terms and conditions concerning cancellations and refunds? <i class="fa fa-chevron-down"></i> </a>
             </div>
-              <p id="pg3Ans4">ANSWER : YES! Dogs can eat curd. Even the dogs that have shown intolerance for milk because of its lactose content can eat curd.</p>
+              <p id="pg3Ans4">ANSWER : We offer a full refund for the remaining sessions without any inquiries. To initiate the refund process, kindly get in touch with our customer support team.</p>
         </div>
     </div>
+
+
     <!-- PAGE 3 ENDS -->
     <hr style="color:white; height:2px">
-    <!-- PAGE 4 STARTS-->
-    <div class="pg4">
+    <!--============================= PAGE 4 STARTS ====================================-->
+
+    <div id="pg4">
       <h1>Why Pet Experts?</h1>
-      <p>We are here to serve you from the very bottom from our heart.</p>
+      <p class="pg4Para">Best in pet care. Unmatched dedication, expertise, personalized service, and genuine passion for your pet's well-being.</p>
       <div class="pg4div">
          <i style="padding: 18px 10px;" class="fa fa-handshake-o"></i>
          <h2>Guaranteed Work</h2>
-         <p>Sample text of guaranteed work for the customer</p>
+         <p>We stand behind our work with a guarantee you can trust.</p>
       </div>
       <div class="pg4div">
          <i style="padding: 20px 18px 12px;" class="fa fa-chain"></i>
-         <h2>Trusted Staff</h2>
-         <p>Sample text of Trusted Staff for the customer</p>
+         <h2>Trusted Trainers</h2>
+         <p>Your pets' training entrusted to experienced professionals.</p>
       </div>
       <div class="pg4div">
          <i style="padding:18px;" class="fa fa-wechat"></i>
          <h2>24x7 Helpline</h2>
-         <p>Sample text of 24x7 Helpline for the customer</p>
+         <p>We're here for you anytime, day or night.</p>
       </div>
     </div>
     <!-- PAGE 4 ENDS-->
     <hr style="color:white; height:2px">
-    <!-- PAGE 5 STARTS-->
-    <div class="pg5">
+    <!--=============================== PAGE 5 STARTS ==========================================-->
+    <div id="pg5">
       <!-- <img src="Images/pg5bg2.jpg" alt=""> -->
       <h1>The Best Pet <br>Care Company</h1>
       <h2>Your Pets <br>are in good hand.</h2>
     </div>
+
     <!-- PAGE 5 ENDS-->
     <hr style="color:white; height:2px">
-    <!-- PAGE 6 STARTS-->
-    <div class="pg6">
+    <!--=================================== PAGE 6 STARTS ======================================-->
+    <div id="pg6">
 
         <h1>Follow Us</h1>
           <div class="pg6content">
-            <a id="facebook" href="https://www.facebook.com"><img src="Images/facebook.png"> </a>
-            <a id="whatsapp" href="https://www.whatsapp.com"><img src="Images/whatsapp.png"> </a>
-            <a id="instagram" href="https://www.instagram.com"><img src="Images/insta.png"> </a>
-            <a id="gmail" href="https://www.gmail.com"><img src="Images/gmail.png"> </a>
-            <a id="twitter" href="https://www.twitter.com"><img src="Images/twitter.png"> </a>
+            <a id="facebook" href="https://www.facebook.com/profile.php?id=100091900026882&mibextid=ZbWKwL" target="_blank"><img src="Images/facebook.png"> </a>
+            <a id="whatsapp" href="https://wa.me/message/ZHRTKD6WEOFEJ1" target="_blank"><img src="Images/whatsapp.png"> </a>
+            <a id="instagram" href="https://www.instagram.com/petexperts.in/" target="_blank"><img src="Images/insta.png"> </a>
+            <!-- <a id="gmail" href="mailto:petexpert4@gmail.com" target="_blank"><img src="Images/gmail.png"> </a> -->
+            <a id="twitter" href="https://twitter.com/PETEXPERTS_IN" target="_blank"><img src="Images/twitter.png"> </a>
           </div>
 
     </div>
     <!-- PAGE 6 ENDS-->
     <hr style="color:white; height:2px">
-    <!-- PAGE FOOTER STARTS-->
+    <!--======================== PAGE FOOTER STARTS =====================================-->
     <!-- <div class="footerImg"> -->
-        <div class="footer">
+        <div id="footer">
           <img class="footerimg" src="Images/foot2.jpg">
-          <div class="footerdiv" style="width:20%;">
+
+          <div class="footerdiv" style="width:16%;">
              <h2>Services</h2>
+             <p><a href="#pg2_1">Dog Walking</a></p>
              <p><a href="#">Dog Training</a></p>
              <p><a href="#">Pet Grooming</a></p>
-             <p><a href="#">Walk Exercise</a></p>
           </div>
           <div class="footerdiv">
             <h2>Need Help</h2>
-            <p><a href="#"><i class="fa fa-phone fa-2x"></i>&nbsp; 123-456-7890</a> </p>
-            <p><a href="#"><i class="fa fa-envelope fa-2x"></i>&nbsp; support@petexperts.in </a> </p> <br>
-            <a href="#"><i class="fa fa-facebook fa-2x"></i> </a>
-            <a href="#"><i class="fa fa-instagram fa-2x"></i> </a>
-            <a href="#"><i class="fa fa-whatsapp fa-2x"></i> </a>
-            <a href="#"><i class="fa fa-twitter fa-2x"></i> </a>
+            <p><a><i class="fa fa-phone fa-2x"></i>&nbsp; +91 9968004345</a> </p>
+            <p><a href="mailto:petexpert4@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i>&nbsp; support@petexperts </a> </p> <br>
+            <a href="https://www.facebook.com/profile.php?id=100091900026882&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook fa-2x"></i> </a>
+            <a href="https://www.instagram.com/petexperts.in/" target="_blank"><i class="fa fa-instagram fa-2x"></i> </a>
+            <a href="https://wa.me/message/ZHRTKD6WEOFEJ1" target="_blank"><i class="fa fa-whatsapp fa-2x"></i> </a>
+            <a href="https://twitter.com/PETEXPERTS_IN" target="_blank"><i class="fa fa-twitter fa-2x"></i> </a>
           </div>
-          <div class="footerdiv" style="width:20%;">
+          <div class="footerdiv" style="width:19%;">
             <h2>More</h2>
             <p><a href="#">Terms and conditions</a> </p>
             <p><a href="#">Privacy Policy</a> </p>

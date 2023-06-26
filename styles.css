@@ -10,7 +10,7 @@ body{
 /* #9800ff  8536c9   hover 9336e3*/
 
 /* PAGE 1 STARTS */
-.pg1{
+#pg1{
   height: 800px;
   width: 100%
 }
@@ -50,7 +50,7 @@ body{
   color: #9800ff;
 }
 
-#signin{
+#bookbtn{
   float: right;
   text-decoration: none;
   font-weight: bold;
@@ -63,7 +63,7 @@ body{
   border-radius: 20px;
   box-shadow: inset 0 0 10px #9800ff;
 }
-#signin:hover{
+#bookbtn:hover{
   /* background-color: #9800ff; */
   background-image: linear-gradient(to left,#9800ff,#ff9d21);
   box-shadow: 0 0 10px #9800ff;
@@ -103,15 +103,15 @@ body{
   box-shadow: 0 0 15px #9800ff;
   background-color: #9800ff;
 }
-/* PAGE 2 STARTS */
-.pg2{
+/* ----------------------------- PAGE 2 STARTS --------------------------------------*/
+#pg2{
   background-color: #1a1a1a;
   color: white;
   height: 600px;
   text-align: left;
   padding: 40px 100px;
 }
-.pg2 h1{
+#pg2 h1{
   margin-bottom: 50px;
   font-weight: bolder;
   font-size: 35px;
@@ -154,19 +154,120 @@ body{
   text-align: left;
   font-size: 17px;
 }
-/* PAGE 3 STARTS */
-.pg3{
+
+/*----------------------------------------- PAGE 2.1 STARTS -------------------------------------------*/
+
+#pg2_1{
+  color: white;
+  /* background-color: #1a1a1a; */
+  background-image: url("Images/signInbg2.o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(30%); */
+  height: 750px;
+  position: relative;
+  padding: 40px 30px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+#pg2_1 h1{
+  text-align: center;
+  /* margin: 0 0 20px 0; */
+  font-size: 40px;
+
+}
+
+.pg2_1div{
+  background-color: rgba(0,0,0, 0.7);
+  width: 55%;
+  height: 480px;
+  position: relative;
+  margin: 50px auto 0;
+  box-shadow: 0 0 20px white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.pg2_1div h2{
+  /* background-color: grey; */
+  background-image: linear-gradient(#9800ff, orange);
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px #9800ff;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  padding: 5px 0;
+}
+
+.pg2_1div p{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.pg2_1div ul{
+  /* list-style-image: url("Images/tick.png"); */
+  /* margin-left: 25%; */
+  /* text-align: center; */
+}
+
+.pg2_1div li{
+  margin: 14px 0% 14px 10%;
+  /* text-align: center; */
+  font-weight: bold;
+  color: #fff;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+.fa-check-circle{
+  color: #00cd00;
+}
+
+.pg2_1div h3{
+   margin: 20px 0 0 40px;
+}
+
+.pg2_1div a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 17px 35px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #9800ff;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-image: linear-gradient(#9800ff,orange);
+}
+
+.pg2_1div a:hover{
+  background-image: linear-gradient(orange, #9800ff);
+  box-shadow: 0 0 10px #9800ff;
+}
+
+
+
+
+/*----------------------------------------- PAGE 3 STARTS -------------------------------------------*/
+#pg3{
   background-color: #1a1a1a;
   color: white;
   text-align: center;
   padding: 30px;
   height: 700px;
 }
-.pg3 h1{
+#pg3 h1{
   padding: 30px;
   font-size: 50px;
 }
-.pg3 h3{
+#pg3 h3{
   font-size: 40px;
   margin-bottom: 40px;
 }
@@ -208,21 +309,22 @@ body{
   float: right;
   margin-right: 20px;
 }
-/* PAGE 4 STARTS */
-.pg4{
+/*------------------------------------------- PAGE 4 STARTS -------------------------------------*/
+#pg4{
   background-color: #1a1a1a;
   color: white;
   height: 550px;
   padding:50px 30px;
   text-align: center;
 }
-.pg4 h1{
+#pg4 h1{
   font-size: 50px;
   margin-top:  20px;
 }
-.pg4 p{
-  margin: 30px 0 50px;
+.pg4Para{
+  margin: 30px 200px 50px;
   font-size: 19px;
+  line-height: 25px;
 }
 .pg4div{
   height: 200px;
@@ -243,9 +345,11 @@ body{
   margin-top: 30px;
   opacity: 70%;
   font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
 }
-/* PAGE 5 STARTS */
-.pg5{
+/*------------------------------------------- PAGE 5 STARTS -------------------------------------*/
+#pg5{
   background-image: url("Images/pg5bg2.jpg");
   background-size: cover;
   color: white;
@@ -254,19 +358,19 @@ body{
   padding: 30px 0 40px 40px;
   position: relative;
 }
-.pg5 h1{
+#pg5 h1{
   font-size: 90px;
   font-family: "Averia serif libre";
 }
-.pg5 h2{
+#pg5 h2{
   position: absolute;
   bottom: 50px;
   right: 50px;
   font-size: 50px;
   /* color: black; */
 }
-/* PAGE 6 STARTS */
-.pg6{
+/*---------------------------------------- PAGE 6 STARTS -----------------------------------*/
+#pg6{
   /* background-color: #1a1a1a; */
   background-image: url("Images/pg6bgfinal.png");
   background-size: cover;
@@ -276,7 +380,7 @@ body{
   text-align: center;
   padding: 40px;
 }
-.pg6 h1{
+#pg6 h1{
   font-size: 60px;
   margin-top: 20px;
 }
@@ -311,7 +415,7 @@ body{
   border-radius: 50%;
   /* border: 2px dotted #8100ff; */
 }
-#gmail{
+#whatsapp{
   position: absolute;
   right: 85px;
   top: 50px;
@@ -325,9 +429,9 @@ body{
   background-color: #9800ff;
   border-radius: 50%;
 }
-/* FOOTER STARTS */
+/*------------------------------------------- FOOTER STARTS ---------------------------------------*/
 
-.footer{
+#footer{
   color: black;
   height: 450px;
   /* padding: 30px 40px; */
@@ -340,11 +444,11 @@ body{
   opacity: 60%;
   z-index: -1;
 }
-.footer h2{
+#footer h2{
   margin-bottom: 30px;
   font-size: 40px;
 }
-.footer a{
+#footer a{
   margin: 15px 0;
   font-size: 20px;
   text-decoration: none;
@@ -353,12 +457,12 @@ body{
   line-height: 40px;
   /* opacity: 80%; */
 }
-.footer a:hover{
+#footer a:hover{
   color: #9800ff;
 }
 
 .footerdiv{
-  width: 25%;
+  width: 30%;
   height: 240px;
   float: left;
   /* border: 2px solid white; */

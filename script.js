@@ -8,7 +8,7 @@ var faqA2 = document.getElementById("pg3Ans2");
 var faqA3 = document.getElementById("pg3Ans3");
 var faqA4 = document.getElementById("pg3Ans4");
 
-var pg3height = document.getElementById('pg3id');
+var pg3height = document.getElementById('pg3');
 
 // var gototop = document.getElementById("gotop");
 

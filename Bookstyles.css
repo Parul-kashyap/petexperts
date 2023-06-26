@@ -4,7 +4,7 @@ body{
   /* background-color: #686868; */
   padding-bottom: 20px;
   background-image: url("Images/signInbg.jpg");
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
