@@ -203,7 +203,7 @@ body{
   padding: 5px 0;
 }
 
-.pg2_1div p{
+.pg2_1divHeadingPara{
   text-align: center;
   font-size: 18px;
   margin-bottom: 30px;
@@ -233,8 +233,8 @@ body{
    margin: 20px 0 0 40px;
 }
 
-.pg2_1div a{
-  text-decoration: none;
+.pg2_1div button{
+  /* text-decoration: none; */
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -245,15 +245,97 @@ body{
   bottom: 30px;
   right: 30px;
   background-image: linear-gradient(#9800ff,orange);
+  border: none;
+  cursor: pointer;
 }
 
-.pg2_1div a:hover{
+.pg2_1div button:hover{
   background-image: linear-gradient(orange, #9800ff);
   box-shadow: 0 0 10px #9800ff;
 }
 
+/* Next page for details */
 
+#pg2_1details{
+ /* background-color: red; */
+ height: 480px;
+ width: 100%;
+ border-radius: 20px;
+ display: none;
+ position: relative;
+}
+#pg2_1details h1{
+  font-size: 30px !important;
+  margin: 10px 0 30px;
+  background-image: linear-gradient(#9800ff,orange);
+  border-radius: 10px;
+}
+#pg2_1details p{
+  font-size: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px 0;
+}
+.pg2_1detailsinput{
+  height: 50px;
+  width: 85%;
+  border-radius: 20px;
+  border: none;
+  padding: 0 20px;
+  font-size: 17px;
+}
 
+.pg2_1detailsdiv1{
+  float: left;
+  font-family: sans-serif;
+  /* background-color: green; */
+  width: 43%;
+  height: 300px;
+  padding: 10px;
+}
+.pg2_1detailsdiv2{
+  float: right;
+  font-family: sans-serif;
+  /* background-color: grey; */
+  width: 43%;
+  height: 300px;
+  padding: 10px;
+}
+.pg2_1detailsdiv2 span{
+  color: orange;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/*
+.slot{
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 17px !important;
+  font-weight: lighter !important;
+} */
+
+#slot7_8{
+  display: none;
+}
+.pg2_1detailsfinalBuy{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  background-image: linear-gradient(#9800ff,orange);
+  position: absolute;
+  /* margin: 10px auto 10px; */
+  bottom: 40px;
+  left: 35%;
+  /* float: right; */
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #9800ff;
+}
+.pg2_1detailsfinalBuy:hover{
+  background-image: linear-gradient(orange, #9800ff);
+  box-shadow: 0 0 10px #9800ff;
+}
 
 /*----------------------------------------- PAGE 3 STARTS -------------------------------------------*/
 #pg3{

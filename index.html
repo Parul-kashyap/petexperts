@@ -74,9 +74,9 @@
           <!-- <img src="Images/signInbg2.jpg" height="700px" width="100%" alt="Background Image"> -->
           <h1>Our Monthly Packages</h1>
           <div class="pg2_1div">
-             <h2>Dog Walking/Exercise</h2>
-             <p>Monthly | 26 Sessions | Once in a day | Morning or Evening</p>
-             <ul>
+             <h2 class="pg2_1displayNone">Dog Walking/Exercise</h2>
+             <p class="pg2_1displayNone pg2_1divHeadingPara">Monthly | 26 Sessions | Once in a day | Morning or Evening</p>
+             <ul class="pg2_1displayNone">
                 <li> <i class="fa fa-check-circle"></i>&nbsp; 30 Minutes walk </li>
                 <li> <i class="fa fa-check-circle"></i>&nbsp; Live Location Tracking </li>
                 <li> <i class="fa fa-check-circle"></i>&nbsp; Professional Dog Trainers/Walkers Only </li>
@@ -87,9 +87,30 @@
                 <li> <i class="fa fa-check-circle"></i>&nbsp; 100% Money Back Guarantee for remaining sessions </li>
 
              </ul>
-             <h3 style="color:red; margin-top:30px;">Price &nbsp;<del>&#8377;9,999/-</del></h3>
-             <h3 style="color:#00cd00;">Special Offer &nbsp; &#8377;3399/-</h3>
-             <a href="#">Book Now</a>
+             <h3 class="pg2_1displayNone" style="color:red; margin-top:30px;">Price &nbsp;<del>&#8377;9,999/-</del></h3>
+             <h3 class="pg2_1displayNone" style="color:#00cd00;">Special Offer &nbsp; &#8377;3399/-</h3>
+             <button class="pg2_1displayNone" onclick="detailfill()">Book Now</button>
+
+                <!-- NEXT STEP DETAILS FILL -->
+                <form id="pg2_1details">
+                  <h1>Monthly dog walk at just <b style="font-family: serif">3399/-</b></h1>
+                    <div class="pg2_1detailsdiv1">
+                        <p>Pet Parent Name</p>
+                        <input class="pg2_1detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
+                        <p>Date</p>
+                        <input class="pg2_1detailsinput" type="date" name="date">
+                    </div>
+                    <div class="pg2_1detailsdiv2">
+                        <p>Address</p>
+                        <input class="pg2_1detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
+                        <p>Time Slot</p>
+                          <!-- <p class="slot"><input type="radio" name="radio"> 5:00-6:00 AM <a style="color:orange"> <i class="fa fa-chevron-down" onclick="dropdown()"></i></a>
+                          <a id="slot7_8" type="radio"><input type="radio" name="radio">7:00-8:00 PM</a>  </p> -->
+                        <input type="radio" name="time"><span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
+                        <input type="radio" name="time"><span>&nbsp;&nbsp;7:00-8:00 PM</span>
+                    </div>
+                    <a class="pg2_1detailsfinalBuy" href="">Complete Purchase</a>
+                </form>
           </div>
        </div>
 

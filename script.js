@@ -78,3 +78,31 @@ function goToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// BOOK NOW CLICK DETAILS FILL krne ke liyea NExt PAGE OPen
+
+var pg2_1displayNone = document.getElementsByClassName("pg2_1displayNone");
+var pg2_1details = document.getElementById("pg2_1details");
+
+function detailfill(){
+  pg2_1displayNone[0].style.display = "none";
+  pg2_1displayNone[1].style.display = "none";
+  pg2_1displayNone[2].style.display = "none";
+  pg2_1displayNone[3].style.display = "none";
+  pg2_1displayNone[4].style.display = "none";
+  pg2_1displayNone[5].style.display = "none";
+  pg2_1details.style.display = "block";
+}
+
+// TIME SLOT DROP DOWN
+
+var slot7_8 = document.getElementById("slot7_8");
+
+function dropdown(){
+  if(slot7_8.style.display === "block"){
+    slot7_8.style.display = "none";
+  }
+  else{
+    slot7_8.style.display = "block";
+  }
+}
