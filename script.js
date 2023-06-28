@@ -83,6 +83,8 @@ function goToTop() {
 
 var pg2_1displayNone = document.getElementsByClassName("pg2_1displayNone");
 var pg2_1details = document.getElementById("pg2_1details");
+var pg2_1details2 = document.getElementById("pg2_1details2");
+var pg2_1details3 = document.getElementById("pg2_1details3");
 
 function detailfill(){
   pg2_1displayNone[0].style.display = "none";
@@ -91,7 +93,21 @@ function detailfill(){
   pg2_1displayNone[3].style.display = "none";
   pg2_1displayNone[4].style.display = "none";
   pg2_1displayNone[5].style.display = "none";
+  pg2_1displayNone[6].style.display = "none";
+  pg2_1displayNone[7].style.display = "none";
+  pg2_1displayNone[8].style.display = "none";
+  pg2_1displayNone[9].style.display = "none";
+  pg2_1displayNone[10].style.display = "none";
+  pg2_1displayNone[11].style.display = "none";
+  pg2_1displayNone[12].style.display = "none";
+  pg2_1displayNone[13].style.display = "none";
+  pg2_1displayNone[14].style.display = "none";
+  pg2_1displayNone[15].style.display = "none";
+  pg2_1displayNone[16].style.display = "none";
+  pg2_1displayNone[17].style.display = "none";
   pg2_1details.style.display = "block";
+  pg2_1details2.style.display = "block";
+  pg2_1details3.style.display = "block";
 }
 
 // TIME SLOT DROP DOWN //////////////////////////////////////////////////
@@ -113,26 +129,87 @@ function detailfill(){
 function back() {
   var pg2_1displayNone = document.getElementsByClassName("pg2_1displayNone");
   var pg2_1details = document.getElementById("pg2_1details");
+  var pg2_1details2 = document.getElementById("pg2_1details2");
+  var pg2_1details3 = document.getElementById("pg2_1details3");
   pg2_1displayNone[0].style.display = "block";
   pg2_1displayNone[1].style.display = "block";
   pg2_1displayNone[2].style.display = "block";
   pg2_1displayNone[3].style.display = "block";
   pg2_1displayNone[4].style.display = "block";
   pg2_1displayNone[5].style.display = "block";
+  pg2_1displayNone[6].style.display = "block";
+  pg2_1displayNone[7].style.display = "block";
+  pg2_1displayNone[8].style.display = "block";
+  pg2_1displayNone[9].style.display = "block";
+  pg2_1displayNone[10].style.display = "block";
+  pg2_1displayNone[11].style.display = "block";
+  pg2_1displayNone[12].style.display = "block";
+  pg2_1displayNone[13].style.display = "block";
+  pg2_1displayNone[14].style.display = "block";
+  pg2_1displayNone[15].style.display = "block";
+  pg2_1displayNone[16].style.display = "block";
+  pg2_1displayNone[17].style.display = "block";
   pg2_1details.style.display = "none";
+  pg2_1details2.style.display = "none";
+  pg2_1details3.style.display = "none";
 }
 
 // SWIPER JS ////////////////////////////////////////////////
-// var swiper = new Swiper(".mySwiper", {
-//   slidesPerView: 1,
-//   spaceBetween: 30,
-//   loop: true,
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
+// var swiper = new Swiper(".swiper", {
+//       slidesPerView: 1,
+//       spaceBetween: 30,
+//       loop: true,
+//       pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//       },
+//       navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//       },
+//     });
+
+// GO NEXT AND PREVIOUS BUTTON
+
+function goPrev(){
+  var pg2_11 = document.getElementById("pg2_11");
+  var pg2_12 = document.getElementById("pg2_12");
+  var pg2_13 = document.getElementById("pg2_13");
+  if(pg2_11.style.display === "block"){
+    pg2_11.style.display = "none";
+    pg2_12.style.display = "none";
+    pg2_13.style.display = "block";
+  }
+  else if(pg2_12.style.display === "block"){
+    pg2_11.style.display = "block";
+    pg2_12.style.display = "none";
+    pg2_13.style.display = "none";
+  }
+  else {
+    pg2_11.style.display = "none";
+    pg2_12.style.display = "block";
+    pg2_13.style.display = "none";
+  }
+}
+
+function goNext(){
+  var pg2_11 = document.getElementById("pg2_11");
+  var pg2_12 = document.getElementById("pg2_12");
+  var pg2_13 = document.getElementById("pg2_13");
+  if(pg2_11.style.display === "block"){
+    pg2_11.style.display = "none";
+    pg2_12.style.display = "block";
+    pg2_13.style.display = "none";
+  }
+  else if(pg2_12.style.display === "block"){
+    pg2_11.style.display = "none";
+    pg2_12.style.display = "none";
+    pg2_13.style.display = "block";
+  }
+  else {
+    pg2_11.style.display = "block";
+    pg2_12.style.display = "none";
+    pg2_13.style.display = "none";
+  }
+
+}
