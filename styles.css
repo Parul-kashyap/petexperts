@@ -180,7 +180,7 @@ body{
 
 }
 
-.pg2_1div{
+.pg2_1div1{
   background-color: rgba(0,0,0, 0.7);
   width: 55%;
   height: 480px;
@@ -192,7 +192,7 @@ body{
   border: 2px solid white;
 }
 
-.pg2_1div h2{
+.pg2_1div1 h2{
   /* background-color: grey; */
   background-image: linear-gradient(#9800ff, orange);
   border-radius: 15px;
@@ -210,13 +210,13 @@ body{
   font-weight: bold;
 }
 
-.pg2_1div ul{
+.pg2_1div1 ul{
   /* list-style-image: url("Images/tick.png"); */
   /* margin-left: 25%; */
   /* text-align: center; */
 }
 
-.pg2_1div li{
+.pg2_1div1 li{
   margin: 14px 0% 14px 10%;
   /* text-align: center; */
   font-weight: bold;
@@ -229,11 +229,11 @@ body{
   color: #00cd00;
 }
 
-.pg2_1div h3{
+.pg2_1div1 h3{
    margin: 20px 0 0 40px;
 }
 
-.pg2_1div button{
+.pg2_1div1 button{
   /* text-decoration: none; */
   color: white;
   font-size: 16px;
@@ -249,7 +249,7 @@ body{
   cursor: pointer;
 }
 
-.pg2_1div button:hover{
+.pg2_1div1 button:hover{
   background-image: linear-gradient(orange, #9800ff);
   box-shadow: 0 0 10px #9800ff;
 }
@@ -267,6 +267,7 @@ body{
 #pg2_1details h1{
   font-size: 30px !important;
   margin: 10px 0 30px;
+  padding: 10px 0;
   background-image: linear-gradient(#9800ff,orange);
   border-radius: 10px;
 }
@@ -306,18 +307,19 @@ body{
   border-radius: 10px;
   font-size: 20px;
 }
-/*
-.slot{
-  border: 2px solid orange;
-  border-radius: 10px;
-  padding: 15px 20px;
-  font-size: 17px !important;
-  font-weight: lighter !important;
-} */
 
-#slot7_8{
-  display: none;
+#backbtn{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  /* background-color: black; */
+  cursor: pointer;
 }
+#backbtn:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
 .pg2_1detailsfinalBuy{
   text-decoration: none;
   color: white;

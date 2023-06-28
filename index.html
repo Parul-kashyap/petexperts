@@ -7,6 +7,9 @@
     <!-- MY STYLE SHEET -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- SWIPER STYLE SHEET -->
+    <link rel="stylesheet" href="swiperStyles.css">
+
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -70,10 +73,13 @@
     <!-- PAGE 2 ENDS -->
     <hr style="color:white; height:2px">
     <!--====================== PAGE 2.1 STARTS =================================-->
-       <div id="pg2_1">
+       <div id="pg2_1" class="swiper mySwiper">
+
+         <div class="swiper-wrapper">
+
           <!-- <img src="Images/signInbg2.jpg" height="700px" width="100%" alt="Background Image"> -->
           <h1>Our Monthly Packages</h1>
-          <div class="pg2_1div">
+          <div class="pg2_1div1 swiper-slide">
              <h2 class="pg2_1displayNone">Dog Walking/Exercise</h2>
              <p class="pg2_1displayNone pg2_1divHeadingPara">Monthly | 26 Sessions | Once in a day | Morning or Evening</p>
              <ul class="pg2_1displayNone">
@@ -109,12 +115,21 @@
                         <input type="radio" name="time"><span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
                         <input type="radio" name="time"><span>&nbsp;&nbsp;7:00-8:00 PM</span>
                     </div>
+                    <a id="backbtn" onclick="back()">back</a>
                     <a class="pg2_1detailsfinalBuy" href="">Complete Purchase</a>
                 </form>
-          </div>
-       </div>
 
-    <!-- PAGE 2.1 ENDS -->
+              </div> <!--card slide-->
+
+            </div> <!-- swiper-->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        <!-- ========================================================================================== -->
+      <!-- PAGE 2.1 ENDS -->
+
     <hr style="color:white; height:2px">
     <!--========================= PAGE 3 STARTS =================================-->
     <div id="pg3">
@@ -232,7 +247,12 @@
     <!-- PAGE FOOTER ENDS-->
 
 
+    <!-- MY SCRIPT -->
+    <script src="script.js"></script>
 
-<script src="script.js"></script>
+   <!-- SWIPER JS -->
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9.4.1/swiper-bundle.min.js"></script>
+
   </body>
 </html>

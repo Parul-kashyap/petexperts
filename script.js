@@ -94,15 +94,45 @@ function detailfill(){
   pg2_1details.style.display = "block";
 }
 
-// TIME SLOT DROP DOWN
+// TIME SLOT DROP DOWN //////////////////////////////////////////////////
 
-var slot7_8 = document.getElementById("slot7_8");
+// var slot7_8 = document.getElementById("slot7_8");
+//
+// function dropdown(){
+//   if(slot7_8.style.display === "block"){
+//     slot7_8.style.display = "none";
+//   }
+//   else{
+//     slot7_8.style.display = "block";
+//   }
+// }
 
-function dropdown(){
-  if(slot7_8.style.display === "block"){
-    slot7_8.style.display = "none";
-  }
-  else{
-    slot7_8.style.display = "block";
-  }
+
+// BACK BUTTON
+
+function back() {
+  var pg2_1displayNone = document.getElementsByClassName("pg2_1displayNone");
+  var pg2_1details = document.getElementById("pg2_1details");
+  pg2_1displayNone[0].style.display = "block";
+  pg2_1displayNone[1].style.display = "block";
+  pg2_1displayNone[2].style.display = "block";
+  pg2_1displayNone[3].style.display = "block";
+  pg2_1displayNone[4].style.display = "block";
+  pg2_1displayNone[5].style.display = "block";
+  pg2_1details.style.display = "none";
 }
+
+// SWIPER JS ////////////////////////////////////////////////
+// var swiper = new Swiper(".mySwiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
