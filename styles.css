@@ -200,6 +200,9 @@ body{
 .right-slider:hover{
   color: #a8a8a8;
 }
+#pg2_11{
+  display: block;
+}
 
 #pg2_12{
   display: none;
@@ -221,6 +224,7 @@ body{
   border: 2px solid white;
 }
 
+
 .pg2_1div1 h2 , .pg2_1div2 h2, .pg2_1div3 h2{
   /* background-color: grey; */
   background-image: linear-gradient(#9800ff, orange);
@@ -231,12 +235,19 @@ body{
   margin-bottom: 30px;
   padding: 5px 0;
 }
+.pg2_1div2 h2{
+  background-image: linear-gradient(#6f00ba,#b54d00);
+}
+.pg2_1div3 h2{
+  background-image: linear-gradient(#33006b,#ff6c00);
+}
 
 .pg2_1divHeadingPara{
   text-align: center;
   font-size: 18px;
   margin-bottom: 30px;
   font-weight: bold;
+  color: yellow;
 }
 
 .pg2_1div1 ul , .pg2_1div2 ul, .pg2_1div3 ul{
@@ -283,11 +294,18 @@ body{
   box-shadow: 0 0 10px #9800ff;
 }
 
+.pg2_1div2 button{
+  background-image: linear-gradient(#6f00ba,#b54d00);
+}
+.pg2_1div3 button{
+  background-image: linear-gradient(#33006b,#ff6c00);
+}
+
 /* Next page for details */
 
 #pg2_1details , #pg2_1details2, #pg2_1details3{
  /* background-color: red; */
- height: 480px;
+ height: 380px;
  width: 100%;
  border-radius: 20px;
  display: none;
@@ -357,7 +375,7 @@ body{
   background-image: linear-gradient(#9800ff,orange);
   position: absolute;
   /* margin: 10px auto 10px; */
-  bottom: 40px;
+  /* bottom: 60px; */
   left: 35%;
   /* float: right; */
   border-radius: 20px;
@@ -369,7 +387,9 @@ body{
   cursor: pointer;
 }
 
-
+del{
+  letter-spacing: 1px;
+}
 /* SECOND CARD SLIDER */
 
 
