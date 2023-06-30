@@ -94,8 +94,8 @@ var pg2_2displayNone = document.getElementsByClassName("pg2_2displayNone");
 var pg2_2details = document.getElementById("pg2_2details");
 var pg2_2details2 = document.getElementById("pg2_2details2");
 var pg2_2details3 = document.getElementById("pg2_2details3");
-var pg2_2details4 = document.getElementById("pg2_2details4");
-var pg2_2details5 = document.getElementById("pg2_2details5");
+// var pg2_2details4 = document.getElementById("pg2_2details4");
+// var pg2_2details5 = document.getElementById("pg2_2details5");
 
 
 
@@ -129,46 +129,37 @@ function detailfill(){
   // ---------------------PAGE 2.2 Instructions--------------------------
 
   // pg2_2displayNone[0].style.display = "none";
-  pg2_2displayNone[0].innerHTML = "Puppy Training at just <b style='font-family:serif'>6,999/-</b>";
-  // pg2_2displayNone[1].style.display = "none";
-  pg2_2displayNone[2].style.display = "none";
-  pg2_2displayNone[3].style.display = "none";
-  pg2_2displayNone[4].style.display = "none";
-  pg2_2displayNone[5].style.display = "none";
-  // pg2_2displayNone[6].style.display = "none";
-  pg2_2displayNone[6].innerHTML = "Basic Training at just <b style='font-family:serif'>12,999/-</b>";
-  // pg2_2displayNone[7].style.display = "none";
-  pg2_2displayNone[8].style.display = "none";
-  pg2_2displayNone[9].style.display = "none";
-  pg2_2displayNone[10].style.display = "none";
-  pg2_2displayNone[11].style.display = "none";
-  // pg2_2displayNone[12].style.display = "none";
-  pg2_2displayNone[12].innerHTML = "Intermediate Training at just <b style='font-family:serif'>17,999/-</b>";
-  // pg2_2displayNone[13].style.display = "none";
-  pg2_2displayNone[14].style.display = "none";
-  pg2_2displayNone[15].style.display = "none";
-  pg2_2displayNone[16].style.display = "none";
-  pg2_2displayNone[17].style.display = "none";
-  // pg2_2displayNone[18].style.display = "none";
-  pg2_2displayNone[18].innerHTML = "Smart Training at just <b style='font-family:serif'>23,999/-</b>";
-  // pg2_2displayNone[19].style.display = "none";
-  pg2_2displayNone[20].style.display = "none";
-  pg2_2displayNone[21].style.display = "none";
-  pg2_2displayNone[22].style.display = "none";
-  pg2_2displayNone[23].style.display = "none";
-  // pg2_2displayNone[24].style.display = "none";
-  pg2_2displayNone[24].innerHTML = "Advanced Training at just <b style='font-family:serif'>35,999/-</b>";
-  // pg2_2displayNone[25].style.display = "none";
-  pg2_2displayNone[26].style.display = "none";
-  pg2_2displayNone[27].style.display = "none";
-  pg2_2displayNone[28].style.display = "none";
-  pg2_2displayNone[29].style.display = "none";
-
-  pg2_2details.style.display = "block";
-  pg2_2details2.style.display = "block";
-  pg2_2details3.style.display = "block";
-  pg2_2details4.style.display = "block";
-  pg2_2details5.style.display = "block";
+  // pg2_2displayNone[0].innerHTML = "Puppy Training at just <b style='font-family:serif'>6,999/-</b>";
+  // pg2_2displayNone[2].style.display = "none";
+  // pg2_2displayNone[3].style.display = "none";
+  // pg2_2displayNone[4].style.display = "none";
+  // pg2_2displayNone[5].style.display = "none";
+  // pg2_2displayNone[6].innerHTML = "Basic Training at just <b style='font-family:serif'>12,999/-</b>";
+  // pg2_2displayNone[8].style.display = "none";
+  // pg2_2displayNone[9].style.display = "none";
+  // pg2_2displayNone[10].style.display = "none";
+  // pg2_2displayNone[11].style.display = "none";
+  // pg2_2displayNone[12].innerHTML = "Intermediate Training at just <b style='font-family:serif'>17,999/-</b>";
+  // pg2_2displayNone[14].style.display = "none";
+  // pg2_2displayNone[15].style.display = "none";
+  // pg2_2displayNone[16].style.display = "none";
+  // pg2_2displayNone[17].style.display = "none";
+  // pg2_2displayNone[18].innerHTML = "Smart Training at just <b style='font-family:serif'>23,999/-</b>";
+  // pg2_2displayNone[20].style.display = "none";
+  // pg2_2displayNone[21].style.display = "none";
+  // pg2_2displayNone[22].style.display = "none";
+  // pg2_2displayNone[23].style.display = "none";
+  // pg2_2displayNone[24].innerHTML = "Advanced Training at just <b style='font-family:serif'>35,999/-</b>";
+  // pg2_2displayNone[26].style.display = "none";
+  // pg2_2displayNone[27].style.display = "none";
+  // pg2_2displayNone[28].style.display = "none";
+  // pg2_2displayNone[29].style.display = "none";
+  //
+  // pg2_2details.style.display = "block";
+  // pg2_2details2.style.display = "block";
+  // pg2_2details3.style.display = "block";
+  // pg2_2details4.style.display = "block";
+  // pg2_2details5.style.display = "block";
 }
 
 
@@ -208,49 +199,44 @@ function back() {
   // ------------------------PAGE 2.2 Instructions-----------------------------------
 
   // page 2.2 book now button
-  var pg2_2displayNone = document.getElementsByClassName("pg2_2displayNone");
-  var pg2_2details = document.getElementById("pg2_2details");
-  var pg2_2details2 = document.getElementById("pg2_2details2");
-  var pg2_2details3 = document.getElementById("pg2_2details3");
-  var pg2_2details4 = document.getElementById("pg2_2details4");
-  var pg2_2details5 = document.getElementById("pg2_2details5");
+  // var pg2_2displayNone = document.getElementsByClassName("pg2_2displayNone");
+  // var pg2_2details = document.getElementById("pg2_2details");
+  // var pg2_2details2 = document.getElementById("pg2_2details2");
+  // var pg2_2details3 = document.getElementById("pg2_2details3");
+  // var pg2_2details4 = document.getElementById("pg2_2details4");
+  // var pg2_2details5 = document.getElementById("pg2_2details5");
 
-  pg2_2displayNone[0].style.display = "block";
-  pg2_2displayNone[0].innerHTML = "Puppy Training";
-  // pg2_2displayNone[1].style.display = "block";
-  pg2_2displayNone[2].style.display = "block";
-  pg2_2displayNone[3].style.display = "block";
-  pg2_2displayNone[4].style.display = "block";
-  pg2_2displayNone[5].style.display = "block";
-  pg2_2displayNone[6].innerHTML = "Basic Training";
-  // pg2_2displayNone[7].style.display = "block";
-  pg2_2displayNone[8].style.display = "block";
-  pg2_2displayNone[9].style.display = "block";
-  pg2_2displayNone[10].style.display = "block";
-  pg2_2displayNone[11].style.display = "block";
-  pg2_2displayNone[12].innerHTML = "Intermediate training";
-  // pg2_2displayNone[13].style.display = "block";
-  pg2_2displayNone[14].style.display = "block";
-  pg2_2displayNone[15].style.display = "block";
-  pg2_2displayNone[16].style.display = "block";
-  pg2_2displayNone[17].style.display = "block";
-  pg2_2displayNone[18].innerHTML = "Smart Training";
-  // pg2_2displayNone[19].style.display = "block";
-  pg2_2displayNone[20].style.display = "block";
-  pg2_2displayNone[21].style.display = "block";
-  pg2_2displayNone[22].style.display = "block";
-  pg2_2displayNone[23].style.display = "block";
-  pg2_2displayNone[24].innerHTML = "Advanced Training";
-  // pg2_2displayNone[25].style.display = "block";
-  pg2_2displayNone[26].style.display = "block";
-  pg2_2displayNone[27].style.display = "block";
-  pg2_2displayNone[28].style.display = "block";
-  pg2_2displayNone[29].style.display = "block";
-  pg2_2details.style.display = "none";
-  pg2_2details2.style.display = "none";
-  pg2_2details3.style.display = "none";
-  pg2_2details4.style.display = "none";
-  pg2_2details5.style.display = "none";
+  // pg2_2displayNone[0].style.display = "block";
+  // pg2_2displayNone[0].innerHTML = "Puppy Training";
+  // pg2_2displayNone[2].style.display = "block";
+  // pg2_2displayNone[3].style.display = "block";
+  // pg2_2displayNone[4].style.display = "block";
+  // pg2_2displayNone[5].style.display = "block";
+  // pg2_2displayNone[6].innerHTML = "Basic Training";
+  // pg2_2displayNone[8].style.display = "block";
+  // pg2_2displayNone[9].style.display = "block";
+  // pg2_2displayNone[10].style.display = "block";
+  // pg2_2displayNone[11].style.display = "block";
+  // pg2_2displayNone[12].innerHTML = "Intermediate training";
+  // pg2_2displayNone[14].style.display = "block";
+  // pg2_2displayNone[15].style.display = "block";
+  // pg2_2displayNone[16].style.display = "block";
+  // pg2_2displayNone[17].style.display = "block";
+  // pg2_2displayNone[18].innerHTML = "Smart Training";
+  // pg2_2displayNone[20].style.display = "block";
+  // pg2_2displayNone[21].style.display = "block";
+  // pg2_2displayNone[22].style.display = "block";
+  // pg2_2displayNone[23].style.display = "block";
+  // pg2_2displayNone[24].innerHTML = "Advanced Training";
+  // pg2_2displayNone[26].style.display = "block";
+  // pg2_2displayNone[27].style.display = "block";
+  // pg2_2displayNone[28].style.display = "block";
+  // pg2_2displayNone[29].style.display = "block";
+  // pg2_2details.style.display = "none";
+  // pg2_2details2.style.display = "none";
+  // pg2_2details3.style.display = "none";
+  // pg2_2details4.style.display = "none";
+  // pg2_2details5.style.display = "none";
 }
 
 // SWIPER JS ////////////////////////////////////////////////
