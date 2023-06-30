@@ -274,9 +274,9 @@ function goPrev1(){
     pg2_13.style.display = "none";
   }
   else {
-    pg2_11.style.display = "none";
+    pg2_11.style.display = "block";
     pg2_12.style.display = "none";
-    pg2_13.style.display = "block";
+    pg2_13.style.display = "none";
   }
 }
 
@@ -319,12 +319,12 @@ function goPrev2(){
     pg2_25.style.display = "none";
   }
   else {
-    pg2_21.style.display = "none";
+    pg2_21.style.display = "block";
     pg2_22.style.display = "none";
     pg2_23.style.display = "none";
     pg2_24.style.display = "none";
-    pg2_25.style.display = "block";
-    pg2_2.style.height = "930px";
+    pg2_25.style.display = "none";
+    // pg2_2.style.height = "930px";
   }
 }
 
@@ -340,9 +340,9 @@ function goNext1(){
     pg2_13.style.display = "block";
   }
   else if(pg2_13.style.display === "block"){
-    pg2_11.style.display = "block";
+    pg2_11.style.display = "none";
     pg2_12.style.display = "none";
-    pg2_13.style.display = "none";
+    pg2_13.style.display = "block";
   }
   else {
     pg2_11.style.display = "none";
@@ -384,11 +384,11 @@ function goNext2(){
     pg2_2.style.height = "930px";
   }
   else if(pg2_25.style.display === "block"){
-    pg2_21.style.display = "block";
+    pg2_21.style.display = "none";
     pg2_22.style.display = "none";
     pg2_23.style.display = "none";
     pg2_24.style.display = "none";
-    pg2_25.style.display = "none";
+    pg2_25.style.display = "block";
   }
   else {
     pg2_21.style.display = "none";
