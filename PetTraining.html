@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dog Training</title>
+
+    <!-- MY STYLE SHEET -->
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comfortaa:wght@300&family=Dancing+Script&family=Roboto+Mono:wght@100;200&family=Rowdies&family=Averia+Serif+Libre&family=Rock+Salt&family=Sofia&display=swap" rel="stylesheet">
+
+<!--  FAVICON -->
+<link rel="icon" href="Images/icon1.ico">
+
+
+  </head>
+  <body style="background-image:url('Images/footerImg.jpg'); background-repeat:no-repeat; background-size: contain">
+
+<!-- NAVBAR -->
+ <!-- <img src="Images/pg2_2bg3.jpg" alt=""> -->
+    <div style=" height:90px" id="navbar" class="">
+        <a id="logo" href="index.html" title="Pet Experts"><img src="Images/logo7.png" alt="logo"></a>
+        <!-- <h2 style="color:white; font-family:Sofia;">Pet Experts</h2> -->
+        <a class="navitem" href="#">About</a>
+        <a class="navitem" href="index.html#pg2_1">Dog Walking</a>
+        <a class="navitem" href="PetTraining.html">Dog Training</a>
+        <a class="navitem" href="#">Pet Grooming</a>
+        <!-- <a class="navitem" href="#">Medi-Care</a> -->
+        <!-- <a id="bookbtn" href="Book.html">Book a Free Session <i class="fa fa-arrow-right"></i> </a> -->
+
+    </div> <br><br>
+    <!-- ======================================== PAGE 2.2.0 STARTS =====================================================-->
+      <div style=" padding-top:20px" id="pg2_2_0">
+          <div id="pg2_2_0bookfree">
+            <h1>Book a Free Training Session</h1>
+            <p>Pet Parent Name</p>
+            <input type="text" name="name" placeholder="Enter Your Name">
+             <p>Phone Number</p>
+             <input type="tel" name="number" placeholder="Enter Your Number">
+             <div style="position: absolute; right: 90px;top: 120px;">
+               <p>Address</p>
+               <input type="text" name="address" placeholder="Enter Your Address">
+
+             </div>
+
+             <button type="button" name="button"> Book a free Session</button>
+          </div>
+
+        </div>
+
+    <!--========================================= PAGE 2.2.0 ENDS =====================================================-->
+
+
+    <!--========================================= PAGE 2.2 STARTS =====================================================-->
+
+    <div id="pg2_2">  <!--PET TRAINING-->
+
+
+      <div class="pg2_2123">
+        <i class="fa fa-chevron-left left-slider" onclick="goPrev2()" title="Previous"></i>
+        <i class="fa fa-chevron-right right-slider" onclick="goNext2()" title="Next"></i>
+         <h1>Dog Training Packages</h1>
+
+        <div id="pg2_21" class="pg2_2div1">
+          <h2 class="pg2_2displayNone">Puppy Training</h2>
+          <p class="pg2_2displayNone pg2_1divHeadingPara">Trainings we provide in this session : ( 12 Sessions in 1 Month )</p>
+          <ul class="pg2_2displayNone">
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Potty / Pee Training </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Basic Socialization </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Puppy Biting calibration/Correction </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Walking - Come, Go</li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Leash Walking - Heel, Turn, Slow, Fast Walk</li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Instructions - Sit, Stay, Shake Hand</li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Intelligence - No, Yes, Eat, Don't Eat</li>
+
+          </ul>
+          <h3 class="pg2_2displayNone deleteprice">Price &nbsp;<del>₹9,999/-</del></h3>
+          <h3 class="pg2_2displayNone price">Special Offer &nbsp; <b style="letter-spacing:1px;">₹6,999/-</b></h3>
+          <!-- <button class="pg2_2displayNone" onclick="detailfill()">Book Now</button> -->
+
+          <!-- NEXT STEP DETAILS FILL -->
+
+          <!-- <form id="pg2_2details">
+
+            <div class="pg2_2detailsdiv1">
+              <p>Pet Parent Name</p>
+              <input class="pg2_2detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
+              <p>Date</p>
+              <input class="pg2_2detailsinput" type="date" name="date">
+            </div>
+            <div class="pg2_2detailsdiv2">
+              <p>Address</p>
+              <input class="pg2_2detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
+              <p>Time Slots</p>
+
+              <input type="radio" name="time"><span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
+              <input type="radio" name="time"><span>&nbsp;&nbsp;7:00-8:00 PM</span>
+            </div>
+            <a class="backbtn" onclick="back()">Back</a>
+            <a class="pg2_2detailsfinalBuy">Complete Purchase</a>
+          </form> -->
+
+        </div> <!--card slide-->
+
+        <!--=================================== SECOND PAGE SLIDER ==================================================== -->
+
+
+        <div id="pg2_22" class="pg2_2div2">
+          <h2 class="pg2_2displayNone">Basic Training</h2>
+          <p class="pg2_2displayNone pg2_2divHeadingPara">Trainings we provide in this session : ( 24 Sessions in 2 Months )</p>
+          <ul class="pg2_2displayNone">
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Potty / Pee Training</li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Play Module </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Intelligence </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Basic Socialization </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Puppy Biting Calibration/Correction </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Without Leash Walking </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Walking - Come, Go </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Leash walking - Heel, Turn, Slow, Fast Walk </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Greetings - Shake Hand, High-five </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Instructions - Sit, Advanced Stay, Down, Get Up </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Feedback Intelligence - No, Yes, Eat, Don't Eat, Jump, Don't Jump, Don't Bark </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Basic Social Etiquettes - Don't Jump, Don't Pull, Boundaries in House </li>
+
+          </ul>
+          <h3 class="pg2_2displayNone deleteprice">Price &nbsp;<del>₹17,999/-</del></h3>
+          <h3 class="pg2_2displayNone price">Special Offer &nbsp; <b style="letter-spacing:1px;">₹12,999/-</b></h3>
+          <!-- <button class="pg2_2displayNone" onclick="detailfill()">Book Now</button> -->
+
+          <!-- NEXT STEP DETAILS FILL -->
+          <!-- <form id="pg2_2details2">
+            <h1>Monthly dog walk at just <b style="font-family: serif">6199/-</b></h1>
+            <div class="pg2_2detailsdiv1">
+              <p>Pet Parent Name</p>
+              <input class="pg2_2detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
+              <p>Date</p>
+              <input class="pg2_2detailsinput" type="date" name="date">
+            </div>
+            <div class="pg2_2detailsdiv2">
+              <p>Address</p>
+              <input class="pg2_2detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
+              <p>Time Slots</p>
+
+              <span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
+              <span>&nbsp;&nbsp;7:00-8:00 PM</span>
+            </div>
+            <a class="backbtn" onclick="back()">Back</a>
+            <a class="pg2_2detailsfinalBuy">Complete Purchase</a>
+          </form> -->
+
+        </div> <!--card slide-->
+
+        <!--=================================== THIRD PAGE SLIDER ==================================================== -->
+
+
+        <div id="pg2_23" class="pg2_2div3">
+          <h2 class="pg2_2displayNone">Intermediate Training</h2>
+          <p class="pg2_2displayNone pg2_2divHeadingPara">Trainings we provide in this session : ( 36 Sessions in 3 Months )</p>
+          <ul class="pg2_2displayNone">
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Potty/Pee Training </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced socialization </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Play Module </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Lower Acrobat Module - Crawl, Rollover </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Greetings - Shake Hand, High-five </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Walking - Come, Go </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Leash Walking - No pull, Heel Walk, Turn, Slow Walk, Fast Walk </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced off Leash walking - without leash walking </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Feedback Intelligence - No, Yes, Eat, Don't Eat, Jump, Don't Jump, Don't Bark </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Instructions - Sit, Advanced Stay, Down, Get Up </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Social Etiquettes - Don't Jump, Don't Pull, Boundaries in house, House Rules </li>
+
+          </ul>
+          <h3 class="pg2_2displayNone deleteprice">Price &nbsp;<del>₹23,999/-</del></h3>
+          <h3 class="pg2_2displayNone price">Special Offer &nbsp; <b style="letter-spacing:1px;">₹17,999/-</b></h3>
+          <!-- <button class="pg2_2displayNone" onclick="detailfill()">Book Now</button> -->
+
+          <!-- NEXT STEP DETAILS FILL -->
+          <!-- <form id="pg2_2details3">
+            <h1>Monthly dog walk at just <b style="font-family: serif">8199/-</b></h1>
+            <div class="pg2_2detailsdiv1">
+              <p>Pet Parent Name</p>
+              <input class="pg2_2detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
+              <p>Date</p>
+              <input class="pg2_2detailsinput" type="date" name="date">
+            </div>
+            <div class="pg2_2detailsdiv2">
+              <p>Address</p>
+              <input class="pg2_2detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
+              <p>Time Slot</p>
+
+              <span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
+              <span>&nbsp;&nbsp;1:00-2:00 PM</span> <br> <br>
+              <span>&nbsp;&nbsp;7:00-8:00 PM</span>
+            </div>
+            <a class="backbtn" onclick="back()">Back</a>
+            <a style="bottom:20px;"class="pg2_2detailsfinalBuy">Complete Purchase</a>
+          </form> -->
+
+        </div> <!--third card slide-->
+
+      <!--=================================== Forth PAGE SLIDER ==================================================== -->
+
+        <div id="pg2_24" class="pg2_2div4">
+          <h2 class="pg2_2displayNone">Smart Training</h2>
+          <p class="pg2_2displayNone pg2_2divHeadingPara">Trainings we provide in this session : ( 48 Sessions in 4 Months )</p>
+          <ul class="pg2_2displayNone">
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Counting 1 to 5 </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Potty / Pee Training </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Socialization </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Smart Commands - Go To Bed, Fetch Newspaper </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Lower Acrobat Module - Crawl, Rollover, Lie Down, Sleep </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Play - Hula-hoop Jumps, Fetch & drop, Spin </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Leash Walking - No pull, Heel Walk, Turn, Slow Walk, Fast Walk </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Off Leash walking - without leash walking </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Social Etiquettes - Don't Jump, Don't Pull, Boundaries in house, House Rules </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Feedback Intelligence - No, Yes, Eat, Don't Eat, Jump, Don't Jump, Don't Bark </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Greetings - Namaste, Shake Hand, High-5, Hold Treats in Namaste Position </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Instructions - Sit, Advanced Stay, Down, Get Up (Commands follow in distraction as well) </li>
+
+          </ul>
+          <h3 class="pg2_2displayNone deleteprice">Price &nbsp;<del>₹31,999/-</del></h3>
+          <h3 class="pg2_2displayNone price">Special Offer &nbsp; <b style="letter-spacing:1px;">₹23,999/-</b></h3>
+          <!-- <button class="pg2_2displayNone" onclick="detailfill()">Book Now</button> -->
+
+          <!-- NEXT STEP DETAILS FILL -->
+          <!-- <form id="pg2_2details4">
+            <h1>Monthly dog walk at just <b style="font-family: serif">8199/-</b></h1>
+            <div class="pg2_2detailsdiv1">
+              <p>Pet Parent Name</p>
+              <input class="pg2_2detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
+              <p>Date</p>
+              <input class="pg2_2detailsinput" type="date" name="date">
+            </div>
+            <div class="pg2_2detailsdiv2">
+              <p>Address</p>
+              <input class="pg2_2detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
+              <p>Time Slot</p>
+
+              <span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
+              <span>&nbsp;&nbsp;1:00-2:00 PM</span> <br> <br>
+              <span>&nbsp;&nbsp;7:00-8:00 PM</span>
+            </div>
+            <a class="backbtn" onclick="back()">Back</a>
+            <a style="bottom:20px;"class="pg2_2detailsfinalBuy">Complete Purchase</a>
+          </form> -->
+
+        </div> <!--Forth card slide-->
+
+
+      <!--=================================== Fifth PAGE SLIDER ==================================================== -->
+
+        <div id="pg2_25" class="pg2_2div5">
+          <h2 class="pg2_2displayNone">Advanced Training</h2>
+          <p class="pg2_2displayNone pg2_2divHeadingPara">Trainings we provide in this session : ( 72 Sessions in 6 Months )</p>
+          <ul class="pg2_2displayNone">
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Counting 1 to 5 </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Potty / Pee Training </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Socialization </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Sniff & Search </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Theatrics - Play Dead Act, Statue/Freeze </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Smart Commands - Go To Bed, Fetch Newspaper </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Lower Acrobat Module - Crawl, Rollover, Lie Down, Sleep </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Play - Hula-hoop Jumps, Fetch & drop, Spin </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Greetings - Namaste, Salute, Shake Hand, Hi-Five </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Protection & Guard Module - Attack, Stop </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Protection & Guard Module - Guarding Position, Hold & Bark in Guarding Position </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Protection & Guard Module - Alert Bark on doorbell, Alert Bark on Strangers </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Agility Training - Hurdle jump, Cone cross walk, between the legs walk (weaving) </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Leash Walking - No pull, Heel Walk, Turn, Slow Walk, Fast Walk </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Off Leash walking - without leash walking </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Social Etiquettes - Don't Jump, Don't Pull, Boundaries in house, House Rules </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Advanced Feedback Intelligence - No, Yes, Eat, Don't Eat, Jump, Don't Jump, Don't Bark </li>
+            <li> <i class="fa fa-check-circle"></i>&nbsp; Instructions - Sit, Advanced Stay, Down, Get Up (Commands follow in distraction as well) </li>
+
+          </ul>
+          <h3 class="pg2_2displayNone deleteprice">Price &nbsp;<del>₹47,999/-</del></h3>
+          <h3 class="pg2_2displayNone price">Special Offer &nbsp; <b style="letter-spacing:1px;">₹35,999/-</b></h3>
+          <!-- <button class="pg2_2displayNone" onclick="detailfill()">Book Now</button> -->
+
+          <!-- NEXT STEP DETAILS FILL -->
+          <!-- <form id="pg2_2details5">
+            <h1>Monthly dog walk at just <b style="font-family: serif">8199/-</b></h1>
+            <div class="pg2_2detailsdiv1">
+              <p>Pet Parent Name</p>
+              <input class="pg2_2detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
+              <p>Date</p>
+              <input class="pg2_2detailsinput" type="date" name="date">
+            </div>
+            <div class="pg2_2detailsdiv2">
+              <p>Address</p>
+              <input class="pg2_2detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
+              <p>Time Slot</p>
+
+              <span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
+              <span>&nbsp;&nbsp;1:00-2:00 PM</span> <br> <br>
+              <span>&nbsp;&nbsp;7:00-8:00 PM</span>
+            </div>
+            <a class="backbtn" onclick="back()">Back</a>
+            <a style="bottom:20px;"class="pg2_2detailsfinalBuy">Complete Purchase</a>
+          </form> -->
+
+        </div> <!--Fifth card slide-->
+
+
+        <!-- ========================================================================================== -->
+
+
+      </div> <!-- pg2_21,2,3,4,5-->
+
+
+
+    </div>  <!-- PAGE 2.2 ENDS -->
+
+
+
+
+    <!-- MY SCRIPT -->
+    <script src="script.js"></script>
+
+
+
+  </body>
+</html>
