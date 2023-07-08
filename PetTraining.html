@@ -4,6 +4,44 @@
     <meta charset="utf-8">
     <title>Dog Training</title>
 
+
+  <style>
+      #danger-msg{
+        color: red;
+        background-color: rgba(255,140,130,0.9);
+        position: absolute;
+        bottom: 30px;
+        right: 20%;
+        left: 19%;
+        font-weight: bold;
+        box-shadow: 0 0 10px red;
+        width: 45%;
+        border-radius: 30px;
+        font-size: 10px;
+        display:none;
+        text-align: center;
+      }
+
+      #wait-msg{
+        color: green;
+        background-color: rgb(0, 255, 42);
+        position: absolute;
+        bottom: 30px;
+        right: 20%;
+        left: 26%;
+        width: 30%;
+        box-shadow: 0 0 10px #00ff0f;
+        font-weight: bold;
+        border-radius: 30px;
+        font-size: 14px;
+        text-align: center;
+        display:none;
+      }
+
+  </style>
+
+
+
     <!-- MY STYLE SHEET -->
     <link rel="stylesheet" href="styles.css">
 
@@ -20,6 +58,23 @@
 <link rel="icon" href="Images/icon1.ico">
 
 
+<!--=============================== SCRIPTS EMAIL.JS=================== -->
+<!-- MY SCRIPT -->
+<script src="PetTrainingscript.js"></script>
+
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+(function(){
+  emailjs.init("MBn6Lh-xiGhjtaxDs");
+})();
+</script>
+
+
+
+
   </head>
   <body style="background-image:url('Images/footerImg2.jpg'); background-repeat:no-repeat; background-size: contain">
 
@@ -28,9 +83,9 @@
     <div style="height:90px" id="navbar">
         <a id="logo" href="index.html" title="Pet Experts"><img src="Images/logo7.png" alt="logo"></a>
         <!-- <h2 style="color:white; font-family:Sofia;">Pet Experts</h2> -->
+        <a class="navitem" href="index.html">Home</a>
         <a class="navitem" href="#">About</a>
         <a class="navitem" href="index.html#pg2_1">Dog Walking</a>
-        <a class="navitem" href="PetTraining.html">Dog Training</a>
         <a class="navitem" href="#">Pet Grooming</a>
         <!-- <a class="navitem" href="#">Medi-Care</a> -->
         <!-- <a id="bookbtn" href="Book.html">Book a Free Session <i class="fa fa-arrow-right"></i> </a> -->
@@ -41,16 +96,18 @@
           <div id="pg2_2_0bookfree">
             <h1>Book a Free Training Session</h1>
             <p>Pet Parent Name</p>
-            <input type="text" name="name" placeholder="Enter Your Name">
+            <input id="parentName" type="text" name="name" placeholder="Enter Your Name">
              <p>Phone Number</p>
-             <input type="tel" name="number" placeholder="Enter Your Number">
+             <input id="parentNumber" type="tel" name="number" placeholder="Enter Your Number">
              <div style="position: absolute; right: 90px;top: 120px;">
                <p>Address</p>
-               <input type="text" name="address" placeholder="Enter Your Address">
+               <input id="parentAddress" type="text" name="address" placeholder="Enter Your Address">
 
              </div>
 
-             <button type="button" name="button"> Book a free Session</button>
+             <button type="submit" name="button" onclick="SendMail(); reset(); return false"> Book a free Session</button>
+             <p id="danger-msg">Please Fill All the Details!</p>
+             <p id="wait-msg">Wait a Moment..</p>
           </div>
 
         </div>
