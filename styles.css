@@ -136,7 +136,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 17px;
-  padding: 5px 0;
+  /* padding: 5px 0; */
   padding-left: 7px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -146,7 +146,7 @@ body{
 
 .dropdownBox a:hover{
   background-color: #500087;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 /* ----------------------------- PAGE 2 STARTS --------------------------------------*/
