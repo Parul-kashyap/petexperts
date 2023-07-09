@@ -288,6 +288,7 @@ function goPrev2(){
   var pg2_24 = document.getElementById("pg2_24");
   var pg2_25 = document.getElementById("pg2_25");
 
+
   var pg2_2 = document.getElementById("pg2_2");
 //  PAGE 2.2 Instructions----------------
   if(pg2_23.style.display === "block"){
@@ -333,6 +334,7 @@ function goNext1(){
   var pg2_12 = document.getElementById("pg2_12");
   var pg2_13 = document.getElementById("pg2_13");
 
+
   // PAGE 2.1 Instructions------------
   if(pg2_12.style.display === "block"){
     pg2_11.style.display = "none";
@@ -358,6 +360,7 @@ function goNext2(){
   var pg2_23 = document.getElementById("pg2_23");
   var pg2_24 = document.getElementById("pg2_24");
   var pg2_25 = document.getElementById("pg2_25");
+
 
   var pg2_2 = document.getElementById("pg2_2");
   // PAGE 2.2 Instructions------------

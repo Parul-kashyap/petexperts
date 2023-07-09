@@ -39,7 +39,14 @@
           <h1>Your Pet's Care Center</h1>
           <p>Pets give you unconditional love, loyalty and companionship.</p>
           <h2>Be sure you are taking care of your pet properly.</h2>
-          <a href="#pg2_1">Try our services <i class="fa fa-chevron-right"></i></a>
+          <div class="dropdown_tryBtn">
+           <a class="tryBtn">Try our services <i class="fa fa-chevron-right"></i></a>
+           <div class="dropdownBox">
+             <a href="#pg2_1">Dog Walking</a>
+             <a href="PetTraining.html">Dog Training</a>
+             <a href="#">Pet Grooming</a>
+           </div>
+          </div>
         </div>
     </div>  <!-- PAGE 1 ENDS -->
     <hr style="color:white; height:2px">
@@ -77,8 +84,8 @@
     <!--====================== PAGE 2.1 STARTS =================================-->
        <div id="pg2_1">
             <div class="pg2_1123">
-               <i class="fa fa-chevron-left left-slider" onclick="goPrev1()" title="Previous"></i>
-               <i class="fa fa-chevron-right right-slider" onclick="goNext1()" title="Next"></i>
+               <i id="leftSlider" class="fa fa-chevron-left left-slider" onclick="goPrev1()" title="Previous"></i>
+               <i id="rightSlider" class="fa fa-chevron-right right-slider" onclick="goNext1()" title="Next"></i>
              <h1>Our Monthly Packages</h1>
            <div id="pg2_11" class="pg2_1div1">
              <h2 class="pg2_1displayNone">Dog Walking/Exercise</h2>
