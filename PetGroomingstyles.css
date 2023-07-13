@@ -111,6 +111,7 @@ input[type=radio].color{
 .cost{
   float: right;
   margin-top: 5px;
+  letter-spacing: 1px;
 }
 
 .boxContentDiv2{
