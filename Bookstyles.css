@@ -107,17 +107,18 @@ input{
   background-color: #8500df;
 }
 
-.signupPara{
+/* .signupPara{
   text-align: center;
 }
 .signup-link{
   color: #9800ff;
+
   text-decoration: none;
-}
-.signup-link:hover{
+} */
+/* .signup-link:hover{
   color: #b03cff;
   text-decoration: underline;
-}
+} */
 
 #danger-msg{
   /* color:#ff001d; */

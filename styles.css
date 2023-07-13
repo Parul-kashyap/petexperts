@@ -486,7 +486,7 @@ del{
   /* text-align: center; */
   font-size: 15px;
   height: 45px;
-  width: 210px;
+  width: 240px;
   margin: 20px 0 20px 50px ;
   border: none;
   border-radius: 20px;
@@ -515,22 +515,24 @@ del{
 
 /*----------------------------------------- PAGE 2.2 STARTS -------------------------------------------*/
 
+/*----------------------------------------- PAGE 2.2 STARTS -------------------------------------------*/
+
 #pg2_2{
   color: white;
   /* background-color: #1a1a1a; */
-  background-image: url("Images/pg2_2bg3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url("Images/pg2_2bg3.jpg"); */
+  background-image: linear-gradient(#56330e,#ba552f);
+  border: 1px solid black;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   /* filter: brightness(30%); */
-  height: 830px;
+  /* height: 0px; */
   position: relative;
   padding: 40px 30px;
   margin-top: 34px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
-
 
 #pg2_2 h1{
   text-align: center;
@@ -596,7 +598,7 @@ del{
   /* height: 480px; */
   position: relative;
   margin: 50px auto 0;
-  box-shadow: 0 0 20px white;
+  box-shadow: inset 0 0 20px black;
   padding: 40px 30px;
   border-radius: 20px;
   border: 2px solid white;
@@ -678,125 +680,6 @@ del{
   bottom:60px;
 }
 
-/* .pg2_2div1 button , .pg2_2div2 button, .pg2_2div3 button, .pg2_2div4 button, .pg2_2div5 button{
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 17px 35px;
-  border-radius: 20px;
-  box-shadow: inset 0 0 10px #9800ff;
-  position: absolute;
-  bottom: 30px;
-  right: 30px;
-  background-image: linear-gradient(#9800ff,orange);
-  border: none;
-  cursor: pointer;
-}
-
-.pg2_2div1 button:hover , .pg2_2div2 button:hover, .pg2_2div3 button:hover, .pg2_2div4 button:hover, .pg2_2div5 button:hover{
-  background-image: linear-gradient(orange, #9800ff);
-  box-shadow: 0 0 10px #9800ff;
-}
-
-.pg2_2div2 button{
-  background-image: linear-gradient(#0078ff,#ff7c00);
-}
-.pg2_2div3 button{
-  background-image: linear-gradient(#0018ff,#ff5d00);
-}
-.pg2_2div4 button{
-  background-image: linear-gradient(#0018ff,#ff5d00);
-}
-.pg2_2div5 button{
-  background-image: linear-gradient(#0018ff,#ff5d00);
-} */
-
-/* Next page for details */
-
-/* #pg2_2details , #pg2_2details2, #pg2_2details3, #pg2_2details4, #pg2_2details5{
- background-color: red;
- height: 380px;
- width: 100%;
- border-radius: 20px;
- display: none;
- position: relative;
-}
-#pg2_2details h1 , #pg2_2details2 h1, #pg2_2details3 h1, #pg2_2details4 h1, #pg2_2details5 h1{
-  font-size: 30px !important;
-  margin: 10px 0 30px;
-  padding: 10px 0;
-  background-image: linear-gradient(#9800ff,orange);
-  border-radius: 10px;
-}
-#pg2_2details p , #pg2_2details2 p, #pg2_2details3 p, #pg2_2details4 p, #pg2_2details5 p{
-  font-size: 25px;
-  font-weight: bold;
-  font-size: 25px;
-  margin: 15px 0;
-} */
-/* .pg2_2detailsinput{
-  height: 50px;
-  width: 85%;
-  border-radius: 20px;
-  border: none;
-  padding: 0 20px;
-  font-size: 17px;
-}
-
-.pg2_2detailsdiv1{
-  float: left;
-  font-family: sans-serif;
-  background-color: green;
-  width: 43%;
-  height: 300px;
-  padding: 10px;
-}
-.pg2_2detailsdiv2{
-  float: right;
-  font-family: sans-serif;
-  background-color: grey;
-  width: 43%;
-  height: 300px;
-  padding: 10px;
-}
-.pg2_2detailsdiv2 span{
-  color: orange;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.backbtn{
-  text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  background-color: black;
-  cursor: pointer;
-}
-.backbtn:hover{
-  text-decoration: underline;
-  color: orange;
-}
-
-.pg2_2detailsfinalBuy{
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 15px 30px;
-  background-image: linear-gradient(#9800ff,orange);
-  position: absolute;
-  margin: 10px auto 10px;
-  bottom: 60px;
-  left: 35%;
-  float: right;
-  border-radius: 20px;
-  box-shadow: inset 0 0 10px #9800ff;
-}
-.pg2_2detailsfinalBuy:hover{
-  background-image: linear-gradient(orange, #9800ff);
-  box-shadow: 0 0 10px #9800ff;
-  cursor: pointer;
-} */
 
 del{
   letter-spacing: 1px;
@@ -920,7 +803,7 @@ del{
 /*---------------------------------------- PAGE 6 STARTS -----------------------------------*/
 #pg6{
   /* background-color: #1a1a1a; */
-  background-image: url("Images/pg6bgfinal.png");
+  background-image: url("Images/pg6bgfinal2.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -1039,12 +922,13 @@ del{
   width: 60px;
   /* position: ; */
   transform: rotate(270deg);
-  background-image: linear-gradient(#333333, #333333);
+  background-image: linear-gradient(#000, #000);
   border: 1px solid white;
   border-radius: 20px;
 }
 
 .gotopimg:hover{
+  /* background-image: linear-gradient(#111, #000); */
   border: 1px solid #9800ff;
   box-shadow: 0 0 4px #9800ff;
 }

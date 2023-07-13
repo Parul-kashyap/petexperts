@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pet Grooming</title>
+
+    <!-- MY STYLE SHEET -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="petGroomingstyles.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comfortaa:wght@300&family=Dancing+Script&family=Roboto+Mono:wght@100;200&family=Rowdies&family=Averia+Serif+Libre&family=Rock+Salt&family=Sofia&display=swap" rel="stylesheet">
+
+  <!--  FAVICON -->
+  <link rel="icon" href="Images/icon1.ico">
+
+  </head>
+  <body style="background-repeat:no-repeat; background-size: cover">
+
+
+    <div id="pggrooming1">
+    <!-- NAVBAR -->
+    <div style="height:90px" id="navbar">
+        <a id="logo" href="index.html" title="Pet Experts"><img src="Images/logo7.png" alt="logo"></a>
+        <!-- <h2 style="color:white; font-family:Sofia;">Pet Experts</h2> -->
+        <a class="navitem" href="index.html">Home</a>
+        <a class="navitem" href="#">About</a>
+        <a class="navitem" href="index.html#pg2_1">Dog Walking</a>
+        <a class="navitem" href="PetTraining.html">Dog Training</a>
+    </div>
+
+        <!-- TOP DIV BOX -->
+
+            <div id="pg1box">
+              <h1>Book a Grooming Session</h1>
+                <div class="boxContent">
+                      <div class="boxContentDiv1">
+                        <h3>Your Pet</h3>
+                        <input id="dog" class="color" type="radio" name="pet" checked> <img src="Images/dog face.png"> <span>Dog</span>
+                        <input id="cat" class="color" type="radio" name="pet"> <img src="Images/cat face.png">&nbsp; <span>Cat</span>
+                        <h3>Select service of your choice</h3> <br>
+
+                        <div class="service">
+                          <p><input class="color" type="radio" name="service" checked> Bath & Brush <o class="cost"> &#8377;799</o></p>
+                          <p><input class="color" type="radio" name="service"> Bath & Brush (With Tick Treatment) <o class="cost"> &#8377;1199</o></p>
+                          <p><input class="color" type="radio" name="service"> Hair Cut & Styling <o class="cost"> &#8377;1249</o></p>
+                          <p><input class="color" type="radio" name="service"> Bath & Full Hair Cut <o class="cost"> &#8377;1649</o></p>
+                          <p><input class="color" type="radio" name="service"> Massage, Bath, Full Hair Cut & Styling <o class="cost"> &#8377;1949</o></p>
+
+                        </div>
+                      </div>
+                      <div class="boxContentDiv2">
+                        <p>Name</p>
+                        <input type="text" name="name" placeholder="Enter Your Name"> </br>
+                      <br>  <p>Phone number</p>
+                        <input type="tel" name="number" placeholder="Enter Your Number"> </br>
+                        <button type="button" name="button">Proceed</button>
+                      </div>
+                      <h3 style="position:absolute; bottom:80px;">Includes</h3>
+                      <p class="foot"> Bath , Shampoo , Blow Dry , Brushing , Nail Trim , Ear Cleaning or Flushing , Teeth Brushing , Scissoring/Trimming Feet Hair</p>
+                 </div>
+
+
+
+               </div>
+            </div>
+
+
+
+     <div id="pggrooming2">  <!--PET GROOMING-->
+
+         <div class="pggrooming2_2123 pg2_2123">
+           <i id="leftSliderGrooming" class="fa fa-chevron-left left-slider" onclick="goPrevgrooming()" title="Previous"></i>
+           <i id="rightSliderGrooming" class="fa fa-chevron-right right-slider" onclick="goNextgrooming()" title="Next"></i>
+            <h1>Our Styling Collections</h1>
+
+           <div id="pggrooming2_21" class="pggrooming2_2div1 pg2_2div1">
+             <h2 class="pg2_2displayNone">Bath and Brush</h2>
+             <p class="pg2_2displayNone pg2_1divHeadingPara">We Provide These Services for your Pet in this package:</p>
+             <ul class="pg2_2displayNone">
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Bath </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Shampoo </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Scrubbing </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Coat Conditioner</li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Nail Trim</li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Brushing</li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Blow Dry</li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Scissoring Feet</li>
+
+             </ul>
+             <h3 class="pg2_2displayNone deletepricegrooming">Price &nbsp;<del>₹1200/-</del></h3>
+             <h3 class="pg2_2displayNone pricegrooming">Special Offer &nbsp; <b style="letter-spacing:1px;">₹799/-</b></h3>
+
+
+           </div> <!--card slide-->
+
+           <!--=================================== SECOND PAGE SLIDER ==================================================== -->
+
+
+           <div id="pggrooming2_22" class="pggrooming2_2div2 pg2_2div2">
+             <h2 class="pg2_2displayNone">Bath and Brush <br> <small>( With Tick Treatment )</small></h2>
+             <p class="pg2_2displayNone pg2_2divHeadingPara">We Provide These Services for your Pet in this package:</p>
+             <ul class="pg2_2displayNone">
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Bath</li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Plus Tick Treatment </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Shampoo (Vet Approved) </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Scrubbing </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Coat Conditioner </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Ear Cleaning or Flushing </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Nail Trim </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Brushing </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Blow Dry </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Scissoring Feet </li>
+
+             </ul>
+             <h3 class="pg2_2displayNone deletepricegrooming">Price &nbsp;<del>₹1600/-</del></h3>
+             <h3 class="pg2_2displayNone pricegrooming">Special Offer &nbsp; <b style="letter-spacing:1px;">₹1199/-</b></h3>
+
+
+           </div> <!--card slide-->
+
+           <!--=================================== THIRD PAGE SLIDER ==================================================== -->
+
+
+           <div id="pggrooming2_23" class="pggrooming2_2div3 pg2_2div3">
+             <h2 class="pg2_2displayNone">Haircut and Styling</h2>
+             <p class="pg2_2displayNone pg2_2divHeadingPara">We Provide These Services for your Pet in this package:</p>
+             <ul class="pg2_2displayNone">
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Full Haircut </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Shaving and Hairstyling </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Breed specific Haircut </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Fanny Hair Trim </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Paw Hair Trim </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Tail Hair Shaping </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Brushing </li>
+               <li> <i class="fa fa-check-circle"></i>&nbsp; Blow Dry </li>
+
+             </ul>
+             <h3 class="pg2_2displayNone deletepricegrooming">Price &nbsp;<del>₹2100/-</del></h3>
+             <h3 class="pg2_2displayNone pricegrooming">Special Offer &nbsp; <b style="letter-spacing:1px;">₹1299/-</b></h3>
+
+
+           </div> <!--third card slide-->
+
+         <!--=================================== Forth PAGE SLIDER ==================================================== -->
+
+           <div id="pggrooming2_24" class="pggrooming2_2div4 pg2_2div4">
+             <h2 class="pg2_2displayNone">Bath, Full Haircut & Styling</h2>
+             <p class="pg2_2displayNone pg2_2divHeadingPara">We Provide These Services for your Pet in this package:</p>
+             <ul class="pg2_2displayNone">
+               <div class="leftdiv">
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Bath </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Shampoo </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Scrubbing </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Coat Conditioner </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Nail Trim </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Ear Cleaning or Flushing </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Blow Dry </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Scissoring Feet </li>
+               </div>
+               <div class="rightdiv">
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Full Haircut </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Shaving and Hairstyling </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Breed specific Haircut </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Fanny Hair Trim </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Paw Hair Trim </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Tail Hair Shaping </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Brushing </li>
+              </div>
+             </ul>
+             <h3 class="pg2_2displayNone deletepricegrooming">Price &nbsp;<del>₹3300/-</del></h3>
+             <h3 class="pg2_2displayNone pricegrooming">Special Offer &nbsp; <b style="letter-spacing:1px;">₹1799/-</b></h3>
+
+
+           </div> <!--Forth card slide-->
+
+
+         <!--=================================== Fifth PAGE SLIDER ==================================================== -->
+
+           <div id="pggrooming2_25" class="pggrooming2_2div5 pg2_2div5">
+             <h2 class="pg2_2displayNone">Massage, Bath, Full Haircut & Styling</h2>
+             <p class="pg2_2displayNone pg2_2divHeadingPara">We Provide These Services for your Pet in this package:</p>
+             <ul class="pg2_2displayNone">
+               <div class="leftdiv" style="width:43%;">
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Oil Massage of Feet and Back </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Bath </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Shampoo </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Scrubbing </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Coat Conditioner </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Nail Trim </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Ear Cleaning or Flushing </li>
+               </div>
+               <div class="rightdiv">
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Full Haircut </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Breed specific Haircut </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Fanny Hair Trim </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Paw Hair Trim </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Tail Hair Shaping </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Brushing </li>
+                   <li> <i class="fa fa-check-circle"></i>&nbsp; Blow Dry </li>
+             </div>
+             </ul>
+             <h3 class="pg2_2displayNone deletepricegrooming">Price &nbsp;<del>₹47,999/-</del></h3>
+             <h3 class="pg2_2displayNone pricegrooming">Special Offer &nbsp; <b style="letter-spacing:1px;">₹35,999/-</b></h3>
+
+
+           </div> <!--Fifth card slide-->
+
+
+           <!-- ========================================================================================== -->
+
+
+         </div> <!-- pg2_21,2,3,4,5-->
+
+
+
+       </div>  <!-- PAGE 2.2 ENDS -->
+
+     </div>
+
+<script src="PetGroomingscript.js" charset="utf-8"></script>
+
+
+
+  </body>
+</html>
