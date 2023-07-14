@@ -384,7 +384,7 @@ function goNext2(){
     pg2_23.style.display = "none";
     pg2_24.style.display = "none";
     pg2_25.style.display = "block";
-    pg2_2.style.height = "930px";
+    // pg2_2.style.height = "930px";
   }
   else if(pg2_25.style.display === "block"){
     pg2_21.style.display = "none";
