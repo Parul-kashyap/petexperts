@@ -401,6 +401,12 @@ body{
   border-radius: 10px;
   font-size: 20px;
 }
+.pg2_1detailsdiv2 input[type=radio]{
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  accent-color: #9800ff;
+}
 
 .backbtn{
   text-decoration: none;

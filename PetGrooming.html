@@ -7,7 +7,7 @@
     <!-- MY STYLE SHEET -->
     <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="petGroomingstyles.css">
+    <link rel="stylesheet" href="PetGroomingstyles.css">
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,37 +39,37 @@
 
             <div id="pg1box">
               <h1>Book a Grooming Session</h1>
-                <div class="boxContent">
-                      <div class="boxContentDiv1">
-                        <h3>Your Pet</h3>
-                        <input id="dog" class="color" type="radio" name="pet" checked> <img src="Images/dog face.png"> <span>Dog</span>
-                        <input id="cat" class="color" type="radio" name="pet"> <img src="Images/cat face.png">&nbsp; <span>Cat</span>
-                        <h3>Select service of your choice</h3> <br>
+                <div id="boxContent">
+                      <div class="boxContent1">
+                          <h3 style="margin-left:87px; display:inline">Your Pet :</h3>
+                          <input id="dog" class="color" type="radio" name="pet" checked> <img src="Images/dog face.png"> <span>Dog</span>
+                          <input id="cat" class="color" type="radio" name="pet"> <img src="Images/cat face.png">&nbsp; <span>Cat</span>
 
-                        <div class="service">
-                          <p><input class="color" type="radio" name="service" checked> Bath & Brush <o class="cost"> &#8377;799</o></p>
-                          <p><input class="color" type="radio" name="service"> Bath & Brush (With Tick Treatment) <o class="cost"> &#8377;1199</o></p>
-                          <p><input class="color" type="radio" name="service"> Hair Cut & Styling <o class="cost"> &#8377;1299</o></p>
-                          <p><input class="color" type="radio" name="service"> Bath & Full Hair Cut <o class="cost"> &#8377;1799</o></p>
-                          <p><input class="color" type="radio" name="service"> Massage, Bath, Full Hair Cut & Styling <o class="cost"> &#8377;1999</o></p>
+                          <h3 style="margin-left:87px;">Select service of your choice</h3> <br>
+                          <div class="service">
+                              <p><input class="color" type="radio" name="service" checked> Bath & Brush <o class="cost"> &#8377;799</o></p>
+                              <p><input class="color" type="radio" name="service"> Bath & Brush (With Tick Treatment) <o class="cost"> &#8377;1199</o></p>
+                              <p><input class="color" type="radio" name="service"> Hair Cut & Styling <o class="cost"> &#8377;1299</o></p>
+                              <p><input class="color" type="radio" name="service"> Bath & Full Hair Cut <o class="cost"> &#8377;1799</o></p>
+                              <p><input class="color" type="radio" name="service"> Massage, Bath, Full Hair Cut & Styling <o class="cost"> &#8377;1999</o></p>
+                          </div>
+                      </div>
+                      <!-- <h3 style="position:absolute; bottom:80px;">Includes</h3>
+                      <p class="foot"> Bath , Shampoo , Blow Dry , Brushing , Nail Trim , Ear Cleaning or Flushing , Teeth Brushing , Scissoring/Trimming Feet Hair</p> -->
+                 </div>
 
-                        </div>
-                      </div>
-                      <div class="boxContentDiv2">
-                        <p>Name</p>
-                        <input type="text" name="name" placeholder="Enter Your Name"> </br>
-                      <br>  <p>Phone number</p>
-                        <input type="tel" name="number" placeholder="Enter Your Number"> </br>
-                        <button type="button" name="button">Proceed</button>
-                      </div>
-                      <h3 style="position:absolute; bottom:80px;">Includes</h3>
-                      <p class="foot"> Bath , Shampoo , Blow Dry , Brushing , Nail Trim , Ear Cleaning or Flushing , Teeth Brushing , Scissoring/Trimming Feet Hair</p>
+                 <div id="boxContent2">
+                   <p>Name</p>
+                   <input type="text" name="name" placeholder="Enter Your Name"> </br>
+                   <br>  <p>Phone number</p>
+                   <input type="tel" name="number" placeholder="Enter Your Number"> </br>
+                   <button type="button" name="button" onclick="detailfillProceed()">Proceed</button>
+
                  </div>
 
 
-
-               </div>
-            </div>
+               </div>  <!--Page first Booking BOX-->
+            </div> <!--PAGE FIRST Including NAVBAR-->
 
 
 
