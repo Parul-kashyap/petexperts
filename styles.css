@@ -542,11 +542,9 @@ del{
 }
 
 
-
-
 .left-slider{
   position: absolute;
-  top: 48%;
+  top: 23rem;
   left: 60px;
   font-size: 40px !important;
   cursor: pointer;
@@ -556,7 +554,7 @@ del{
 }
 .right-slider{
   position: absolute;
-  top: 48%;
+  top: 23rem;
   right: 60px;
   font-size: 40px !important;
   cursor: pointer;

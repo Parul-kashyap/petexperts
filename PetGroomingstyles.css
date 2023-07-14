@@ -51,8 +51,7 @@ input[type=radio].color{
   margin-left: 15px;
   margin-right: 5px;
   margin-bottom: 10px;
-  /* display: grid; */
-  /* grid-template-columns: 1em auto; */
+  cursor: pointer;
   border: 5px solid red;
   padding-right: 50px;
 }
