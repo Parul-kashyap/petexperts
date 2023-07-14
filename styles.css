@@ -226,7 +226,7 @@ body{
 
 }
 
-.left-slider{
+/* .left-slider{
   position: absolute;
   top: 48%;
   left: 60px;
@@ -246,7 +246,7 @@ body{
 }
 .right-slider:hover{
   color: #a8a8a8;
-}
+} */
 #pg2_11{
   display: block;
 }
@@ -443,7 +443,14 @@ body{
 del{
   letter-spacing: 1px;
 }
-
+/* BACKGROUND IMAGE */
+.bgimg{
+  background-image: url("Images/footerImg2.jpg");
+  border-radius: 0 0 30px 30px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 700px;
+}
 /* ---------------------------------------- PAGE 2.2.0 STARTS----------------------------------------------- */
 
 #pg2_2_0{
@@ -528,14 +535,13 @@ del{
   /* background-color: #1a1a1a; */
   /* background-image: url("Images/pg2_2bg3.jpg"); */
   background-image: linear-gradient(#864d10,#ba552f);
-  border: 1px solid black;
+  /* border-top: 1px solid white; */
   /* background-repeat: no-repeat;
   background-size: cover; */
   /* filter: brightness(30%); */
   height: auto;
   position: relative;
   padding: 40px 30px;
-  margin-top: 34px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }

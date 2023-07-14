@@ -1,3 +1,33 @@
+// DETAILS FIRST PAGE NAME AND PHONE NUMBER , SERVICE
+
+function nextProceed(){
+  var pg1boxContent = document.getElementById("boxContent");
+  var pg1boxContent2 = document.getElementById("boxContent2");
+  pg1boxContent.style.display = "none";
+  pg1boxContent2.style.display = "block";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function goPrevgrooming(){
   var pggrooming2_21 = document.getElementById("pggrooming2_21");
   var pggrooming2_22 = document.getElementById("pggrooming2_22");
