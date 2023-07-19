@@ -1,0 +1,29 @@
+.container{
+  /* background-color: red; */
+  margin: 0 90px;
+  padding: 40px;
+}
+
+.container h2{
+
+}
+
+.container p{
+  margin-left: 10px;
+  line-height: 23px;
+}
+
+.container li{
+  margin: 10px 0 10px 45px;
+}
+
+.container strong{
+  cursor: default;
+  color: orange;
+  text-decoration: underline;
+}
+
+.container strong:hover{
+  text-decoration: none;
+
+}
