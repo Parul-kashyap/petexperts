@@ -25,12 +25,13 @@
     <div id="pg1">
       <img class="pg1bgimg" src="Images/stiker5.jpg" alt="BG IMG">
         <div id="navbar">
-            <a id="logo" href="#" title="Pet Experts"><img src="Images/logo7.png" alt="logo"></a>
+            <a id="logo" href="" title="Pet Experts"><img src="Images/logo7.png" alt="logo"></a>
             <!-- <h2 style="color:white; font-family:Sofia;">Pet Experts</h2> -->
-            <a class="navitem" href="#">About</a>
-            <a class="navitem" href="#pg2_1">Dog Walking</a>
+            <a style="color:#9800ff" class="navitem" href="">Home</a>
+            <a class="navitem" href="PetWalking.html">Dog Walking</a>
             <a class="navitem" href="PetTraining.html">Dog Training</a>
             <a class="navitem" href="PetGrooming.html">Pet Grooming</a>
+            <a class="navitem" href="about.html">About</a>
             <!-- <a class="navitem" href="#">Medi-Care</a> -->
             <a id="bookbtn" href="Book.html">Book a Free Session <i class="fa fa-arrow-right"></i> </a>
 
@@ -42,14 +43,14 @@
           <div class="dropdown_tryBtn">
            <a class="tryBtn">Try our services <i class="fa fa-chevron-right"></i></a>
            <div class="dropdownBox">
-             <a href="#pg2_1">Dog Walking</a>
+             <a href="PetWalking.html">Dog Walking</a>
              <a href="PetTraining.html">Dog Training</a>
              <a href="PetGrooming.html">Pet Grooming</a>
            </div>
           </div>
         </div>
     </div>  <!-- PAGE 1 ENDS -->
-    <hr style="color:white; height:2px">
+    <!-- <hr style="color:white; height:2px"> -->
     <!--========================== PAGE 2 STARTS =================================-->
     <div id="pg2">
       <h1>How to take care of your pet?</h1>
@@ -77,174 +78,16 @@
       </div>
     </div>
     <!-- PAGE 2 ENDS -->
-    <hr style="color:white; height:2px">
-
-
-
-    <!--====================== PAGE 2.1 STARTS =================================-->
-       <div id="pg2_1">
-            <div class="pg2_1123">
-               <i id="leftSlider" class="fa fa-chevron-left left-slider" onclick="goPrev1()" title="Previous"></i>
-               <i id="rightSlider" class="fa fa-chevron-right right-slider" onclick="goNext1()" title="Next"></i>
-             <h1>Our Monthly Packages</h1>
-           <div id="pg2_11" class="pg2_1div1">
-             <h2 class="pg2_1displayNone">Dog Walking/Exercise</h2>
-             <p class="pg2_1displayNone pg2_1divHeadingPara">Monthly | 26 Sessions | Once in a day | Morning or Evening</p>
-             <ul class="pg2_1displayNone">
-                <li> <i class="fa fa-check-circle"></i>&nbsp; 30 Minutes walk </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Live Location Tracking </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Professional Dog Trainers/Walkers Only </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Distance Covered </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Photo Updates </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Daily Report Card </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Sunday Off </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; 100% Money Back Guarantee for remaining sessions </li>
-
-             </ul>
-             <h3 class="pg2_1displayNone" style="color:red; margin-top:30px;">Price &nbsp;<del>₹9,999/-</del></h3>
-             <h3 class="pg2_1displayNone" style="color:#00cd00;">Special Offer &nbsp; ₹3399/-</h3>
-             <button class="pg2_1displayNone" onclick="detailfill()">Book Now</button>
-
-                <!-- NEXT STEP DETAILS FILL -->
-                <form id="pg2_1details">
-                  <!-- <h1>Monthly dog walk at just <b style="font-family: serif">3399/-</b></h1> -->
-                    <div class="pg2_1detailsdiv1">
-                        <p>Pet Parent Name</p>
-                        <input class="pg2_1detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
-                        <p>Date</p>
-                        <input class="pg2_1detailsinput" type="date" name="date">
-                    </div>
-                    <div class="pg2_1detailsdiv2">
-                        <p>Address</p>
-                        <input class="pg2_1detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
-                        <p>Time Slots</p>
-                          <!-- <p class="slot"><input type="radio" name="radio"> 5:00-6:00 AM <a style="color:orange"> <i class="fa fa-chevron-down" onclick="dropdown()"></i></a>
-                          <a id="slot7_8" type="radio"><input type="radio" name="radio">7:00-8:00 PM</a>  </p> -->
-                        <input type="radio" name="time"><span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
-                        <input type="radio" name="time"><span>&nbsp;&nbsp;7:00-8:00 PM</span>
-                    </div>
-                    <a class="backbtn" onclick="back()">Back</a>
-                    <a class="pg2_1detailsfinalBuy">Complete Purchase</a>
-                </form>
-
-              </div> <!--card slide-->
-
-    <!--=================================== SECOND PAGE SLIDER ==================================================== -->
-
-
-           <div id="pg2_12" class="pg2_1div2">
-             <h2 class="pg2_1displayNone">Dog Walking/Exercise</h2>
-             <p class="pg2_1displayNone pg2_1divHeadingPara">Monthly | 52 Sessions | Twice in a day | Morning & Evening</p>
-             <ul class="pg2_1displayNone">
-                <li> <i class="fa fa-check-circle"></i>&nbsp; 30 Minutes walk Each Day </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Recommended 60 Minutes Each Day </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Overexcittement Correction </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Live Location Tracking </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Professional Dog Trainers/Walkers Only </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Distance Covered </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Photo Updates </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Daily Report Card </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Sunday Off </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; 100% Money Back Guarantee for remaining sessions </li>
-
-             </ul>
-             <h3 class="pg2_1displayNone" style="color:red; margin-top:30px;">Price &nbsp;<del>₹15,999/-</del></h3>
-             <h3 class="pg2_1displayNone" style="color:#00cd00;">Special Offer &nbsp; ₹6,199/-</h3>
-             <button class="pg2_1displayNone" onclick="detailfill()">Book Now</button>
-
-                <!-- NEXT STEP DETAILS FILL -->
-                <form id="pg2_1details2">
-                  <!-- <h1>Monthly dog walk at just <b style="font-family: serif">6199/-</b></h1> -->
-                    <div class="pg2_1detailsdiv1">
-                        <p>Pet Parent Name</p>
-                        <input class="pg2_1detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
-                        <p>Date</p>
-                        <input class="pg2_1detailsinput" type="date" name="date">
-                    </div>
-                    <div class="pg2_1detailsdiv2">
-                        <p>Address</p>
-                        <input class="pg2_1detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
-                        <p>Time Slots</p>
-                          <!-- <p class="slot"><input type="radio" name="radio"> 5:00-6:00 AM <a style="color:orange"> <i class="fa fa-chevron-down" onclick="dropdown()"></i></a>
-                          <a id="slot7_8" type="radio"><input type="radio" name="radio">7:00-8:00 PM</a>  </p> -->
-                        <span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
-                        <span>&nbsp;&nbsp;7:00-8:00 PM</span>
-                    </div>
-                    <a class="backbtn" onclick="back()">Back</a>
-                    <a class="pg2_1detailsfinalBuy">Complete Purchase</a>
-                </form>
-
-              </div> <!--card slide-->
-
-    <!--=================================== THIRD PAGE SLIDER ==================================================== -->
-
-
-           <div id="pg2_13" class="pg2_1div3">
-             <h2 class="pg2_1displayNone">Dog Walking/Exercise</h2>
-             <p class="pg2_1displayNone pg2_1divHeadingPara">Monthly | 78 Sessions | Thrice in a day | Morning, Afternoon & Evening</p>
-             <ul class="pg2_1displayNone">
-                <li> <i class="fa fa-check-circle"></i>&nbsp; 30 Minutes walk Each Day </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Recommended 60 Minutes Each Day </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Overexcittement Correction </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Professional Dog Trainers/Walkers Only </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Live Location Tracking </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Distance Covered </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Daily Report Card </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Photo Updates </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; Sunday Off </li>
-                <li> <i class="fa fa-check-circle"></i>&nbsp; 100% Money Back Guarantee for remaining sessions </li>
-
-             </ul>
-             <h3 class="pg2_1displayNone" style="color:red; margin-top:30px;">Price &nbsp;<del>₹19,999/-</del></h3>
-             <h3 class="pg2_1displayNone" style="color:#00cd00;">Special Offer &nbsp; ₹8,199/-</h3>
-             <button class="pg2_1displayNone" onclick="detailfill()">Book Now</button>
-
-                <!-- NEXT STEP DETAILS FILL -->
-                <form id="pg2_1details3">
-                  <!-- <h1>Monthly dog walk at just <b style="font-family: serif">8199/-</b></h1> -->
-                    <div class="pg2_1detailsdiv1">
-                        <p>Pet Parent Name</p>
-                        <input class="pg2_1detailsinput" type="text" name="name" placeholder="Enter Your Name"> <br><br>
-                        <p>Date</p>
-                        <input class="pg2_1detailsinput" type="date" name="date">
-                    </div>
-                    <div class="pg2_1detailsdiv2">
-                        <p>Address</p>
-                        <input class="pg2_1detailsinput" type="text" name="address" placeholder="Enter Your Address"><br><br>
-                        <p>Time Slot</p>
-                          <!-- <p class="slot"><input type="radio" name="radio"> 5:00-6:00 AM <a style="color:orange"> <i class="fa fa-chevron-down" onclick="dropdown()"></i></a>
-                          <a id="slot7_8" type="radio"><input type="radio" name="radio">7:00-8:00 PM</a>  </p> -->
-                        <span>&nbsp;&nbsp;5:00-6:00 AM</span> <br> <br>
-                        <span>&nbsp;&nbsp;1:00-2:00 PM</span> <br> <br>
-                        <span>&nbsp;&nbsp;7:00-8:00 PM</span>
-                    </div>
-                    <a class="backbtn" onclick="back()">Back</a>
-                    <a style="bottom:20px;"class="pg2_1detailsfinalBuy">Complete Purchase</a>
-                </form>
-
-              </div> <!--card slide-->
-
-
-        <!-- ========================================================================================== -->
-
-
-         </div> <!-- pg2_1123-->
-
-      </div>  <!-- PAGE 2.1 ENDS -->
-
-      <hr style="color:white; height:2px">
-
-
-
-
-      <!--========================================= PAGE 2.2 ENDS =====================================================-->
+    <!-- <hr style="color:white; height:2px"> -->
 
 
 
 
 
 
-    <hr style="color:white; height:2px">
+
+
+    <!-- <hr style="color:white; height:2px"> -->
     <!--========================= PAGE 3 STARTS =================================-->
     <div id="pg3">
         <div class="pg3div">
@@ -279,7 +122,7 @@
 
 
     <!-- PAGE 3 ENDS -->
-    <hr style="color:white; height:2px">
+    <!-- <hr style="color:white; height:2px"> -->
     <!--============================= PAGE 4 STARTS ====================================-->
 
     <div id="pg4">
@@ -302,7 +145,7 @@
       </div>
     </div>
     <!-- PAGE 4 ENDS-->
-    <hr style="color:white; height:2px">
+    <!-- <hr style="color:white; height:2px"> -->
     <!--=============================== PAGE 5 STARTS ==========================================-->
     <div id="pg5">
       <!-- <img src="Images/pg5bg2.jpg" alt=""> -->
@@ -311,7 +154,7 @@
     </div>
 
     <!-- PAGE 5 ENDS-->
-    <hr style="color:white; height:2px">
+    <!-- <hr style="color:white; height:2px"> -->
     <!--=================================== PAGE 6 STARTS ======================================-->
     <div id="pg6">
 
@@ -326,7 +169,7 @@
 
     </div>
     <!-- PAGE 6 ENDS-->
-    <hr style="color:white; height:2px">
+    <!-- <hr style="color:white; height:2px"> -->
     <!--======================== PAGE FOOTER STARTS =====================================-->
     <!-- <div class="footerImg"> -->
         <div id="footer">
@@ -334,7 +177,7 @@
 
           <div class="footerdiv" style="width:16%;">
              <h2>Services</h2>
-             <p><a href="#pg2_1">Dog Walking</a></p>
+             <p><a href="PetWalking.html">Dog Walking</a></p>
              <p><a href="PetTraining.html">Dog Training</a></p>
              <p><a href="PetGrooming.html">Pet Grooming</a></p>
           </div>

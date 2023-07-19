@@ -1,0 +1,103 @@
+#danger-msg{
+  color: red;
+  background-color: rgba(255,140,130,0.9);
+  position: absolute;
+  bottom: -25px;
+  right: 20%;
+  left: 30%;
+  font-weight: bold;
+  box-shadow: 0 0 10px red;
+  width: 40%;
+  border-radius: 30px;
+  font-size: 17px !important;
+  display:none;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#wait-msg{
+  color: green;
+  background-color: rgb(0, 255, 42);
+  position: absolute;
+  bottom: -25px;
+  right: 20%;
+  left: 35%;
+  width: 31%;
+  height: 22px;
+  box-shadow: 0 0 10px #00ff0f;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  display:none;
+  font-size: 18px !important;
+}
+
+#danger-msg2{
+  color: red;
+  background-color: rgba(255,140,130,0.9);
+  position: absolute;
+  bottom: -25px;
+  right: 20%;
+  left: 30%;
+  font-weight: bold;
+  box-shadow: 0 0 10px red;
+  width: 40%;
+  border-radius: 30px;
+  font-size: 17px !important;
+  display:none;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#wait-msg2{
+  color: green;
+  background-color: rgb(0, 255, 42);
+  position: absolute;
+  bottom: -25px;
+  right: 20%;
+  left: 35%;
+  width: 31%;
+  height: 22px;
+  box-shadow: 0 0 10px #00ff0f;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  display:none;
+  font-size: 18px !important;
+}
+#danger-msg3{
+  color: red;
+  background-color: rgba(255,140,130,0.9);
+  position: absolute;
+  bottom: -25px;
+  right: 20%;
+  left: 30%;
+  font-weight: bold;
+  box-shadow: 0 0 10px red;
+  width: 40%;
+  border-radius: 30px;
+  font-size: 17px !important;
+  display:none;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#wait-msg3{
+  color: green;
+  background-color: rgb(0, 255, 42);
+  position: absolute;
+  bottom: -25px;
+  right: 20%;
+  left: 35%;
+  width: 31%;
+  height: 22px;
+  box-shadow: 0 0 10px #00ff0f;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  display:none;
+  font-size: 18px !important;
+}

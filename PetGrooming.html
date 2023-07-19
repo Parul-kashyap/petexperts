@@ -20,6 +20,26 @@
   <!--  FAVICON -->
   <link rel="icon" href="Images/icon1.ico">
 
+
+
+  <!--=============================== SCRIPTS EMAIL.JS=================== -->
+  <!-- MY SCRIPT -->
+  <script src="PetTrainingscript.js"></script>
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+
+  <script type="text/javascript">
+  (function(){
+    emailjs.init("MBn6Lh-xiGhjtaxDs");
+  })();
+  </script>
+
+
+
+
+
   </head>
   <body style="background-repeat:no-repeat; background-size: cover">
 
@@ -30,28 +50,30 @@
         <a id="logo" href="index.html" title="Pet Experts"><img src="Images/logo7.png" alt="logo"></a>
         <!-- <h2 style="color:white; font-family:Sofia;">Pet Experts</h2> -->
         <a class="navitem" href="index.html">Home</a>
-        <a class="navitem" href="#">About</a>
-        <a class="navitem" href="index.html#pg2_1">Dog Walking</a>
+        <a class="navitem" href="PetWalking.html">Dog Walking</a>
         <a class="navitem" href="PetTraining.html">Dog Training</a>
+        <a style="color:#9800ff" class="navitem" href="">Dog Grooming</a>
+        <a class="navitem" href="about.html">About</a>
     </div>
 
         <!-- TOP DIV BOX -->
 
             <div id="pg1box">
+
               <h1>Book a Grooming Session</h1>
                 <div id="boxContent">
                       <div class="boxContent1">
                           <h3 style="margin-left:87px; display:inline">Your Pet :</h3>
-                          <input id="dog" class="color" type="radio" name="pet" checked> <img src="Images/dog face.png"> <span>Dog</span>
-      &nbsp;&nbsp;&nbsp;  <input id="cat" class="color" type="radio" name="pet"> <img src="Images/cat face.png">&nbsp; <span>Cat</span> <br><br>
+                          <input id="dog" class="color" type="radio" value="Dog" name="pet" checked> <img src="Images/dog face.png"> <span>Dog</span>
+      &nbsp;&nbsp;&nbsp;  <input id="cat" class="color" type="radio" value="Cat" name="pet"> <img src="Images/cat face.png">&nbsp; <span>Cat</span> <br><br>
 
                           <h3 style="margin-left:87px;">Pick a service that suits you</h3> <br>
                           <div class="service">
-                              <p><input class="color" type="radio" name="service" checked> Bath & Brush <o class="cost"> &#8377;799</o></p>
-                              <p><input class="color" type="radio" name="service"> Bath & Brush (With Tick Treatment) <o class="cost"> &#8377;1199</o></p>
-                              <p><input class="color" type="radio" name="service"> Hair Cut & Styling <o class="cost"> &#8377;1299</o></p>
-                              <p><input class="color" type="radio" name="service"> Bath & Full Hair Cut <o class="cost"> &#8377;1799</o></p>
-                              <p><input class="color" type="radio" name="service"> Massage, Bath, Full Hair Cut & Styling <o class="cost"> &#8377;1999</o></p>
+                              <p><input id="service1" class="color" type="radio" value="Bath & Brush" name="service" checked> Bath & Brush <o class="cost"> &#8377;799</o></p>
+                              <p><input id="service2" class="color" type="radio" value="Bath & Brush (With Tick Treatment)" name="service"> Bath & Brush (With Tick Treatment) <o class="cost"> &#8377;1199</o></p>
+                              <p><input id="service3" class="color" type="radio" value="Hair Cut & Styling" name="service"> Hair Cut & Styling <o class="cost"> &#8377;1299</o></p>
+                              <p><input id="service4" class="color" type="radio" value="Bath & Full Hair Cut" name="service"> Bath & Full Hair Cut <o class="cost"> &#8377;1799</o></p>
+                              <p><input id="service5" class="color" type="radio" value="Massage, Bath, Full Hair Cut & Styling" name="service"> Massage, Bath, Full Hair Cut & Styling <o class="cost"> &#8377;1999</o></p>
                           </div>
 
                       </div>
@@ -61,26 +83,29 @@
                  </div>
 
                  <div id="boxContent2">
+                    <i id="backbtnGrooming" class="fa fa-arrow-left" title="back" onclick="backGrooming()"></i>
                      <div class="boxContent2divleft">
                        <br> <p>Name</p>
-                       <input type="text" name="name" placeholder="Enter Your Name"> </br>
+                       <input id="nameGrooming"type="text" name="name" placeholder="Enter Your Name"> </br>
                        <br>  <p>Phone number</p>
-                       <input type="tel" name="number" placeholder="Enter Your Number"> </br>
+                       <input id="numberGrooming" type="tel" name="number" placeholder="Enter Your Number"> </br>
                      </div>
                      <div class="boxContent2divright">
                        <br>  <p>Address</p>
-                       <input type="text" name="address" placeholder="Enter Your Address"> </br>
+                       <input id="addressGrooming" type="text" name="address" placeholder="Enter Your Address"> </br>
                        <br>  <p>Date</p>
-                       <input type="date" name="date"> </br>
+                       <input id="dateGrooming" type="date" name="date"> </br>
                      </div>
                      <div class="boxContent2divcenter">
                        <br>
                        <p style="margin-left:0">Time Slot</p>
-                       <input type="radio" name="timeSlot" checked> <span>9AM - 1PM</span> <br>
-                       <input type="radio" name="timeSlot"> <span>1PM - 5PM</span> <br>
-                       <input type="radio" name="timeSlot"> <span>5PM - 9PM</span> <br>
+                       <input id="morningGrooming" type="radio" name="timeSlot" value="9AM - 1PM" checked> <span>9AM - 1PM</span></input> <br>
+                       <input id="afternoonGrooming" type="radio" name="timeSlot" value="1PM - 5PM"> <span>1PM - 5PM</span></input> <br>
+                       <input id="eveningGrooming" type="radio" name="timeSlot" value="5PM - 9PM"> <span>5PM - 9PM</span></input> <br>
                      </div>
-                     <button class="proceedgrooming" type="button" name="button">Proceed</button>
+                     <button class="proceedgrooming" type="button" name="button" onclick="SendMailGrooming(); reset(); return false">Book Now</button>
+                     <p id="danger-msg">Please Fill All the Details!</p>
+                     <p id="wait-msg">Wait a Moment..</p>
                  </div>
 
 

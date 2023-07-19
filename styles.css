@@ -24,7 +24,7 @@ body{
   /* background-color: grey; */
   height: 70px;
   width: auto;
-  padding: 25px 120px;
+  padding: 25px 90px;
   /* position: sticky; */
   top: 0;
 }
@@ -206,13 +206,13 @@ body{
 #pg2_1{
   color: white;
   /* background-color: #1a1a1a; */
-  background-image: url("Images/signInbg2.o.jpg");
+  background-image: url("Images/walking.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* filter: brightness(30%); */
-  height: 750px;
+  /* height: 750px; */
   position: relative;
-  padding: 40px 30px;
+  padding-bottom: 30px;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -221,32 +221,32 @@ body{
 
 #pg2_1 h1{
   text-align: center;
-  /* margin: 0 0 20px 0; */
+  /* margin-top: 50px; */
   font-size: 40px;
-
 }
 
-/* .left-slider{
+
+.left-slider-walking{
   position: absolute;
-  top: 48%;
+  top: 62%;
   left: 60px;
   font-size: 40px !important;
   cursor: pointer;
   display: none;
 }
-.left-slider:hover{
+.left-slider-walking:hover{
   color: #a8a8a8;
 }
-.right-slider{
+.right-slider-walking{
   position: absolute;
-  top: 48%;
+  top: 62%;
   right: 60px;
   font-size: 40px !important;
   cursor: pointer;
 }
-.right-slider:hover{
+.right-slider-walking:hover{
   color: #a8a8a8;
-} */
+}
 #pg2_11{
   display: block;
 }
@@ -260,15 +260,15 @@ body{
 }
 
 .pg2_1div1 , .pg2_1div2 , .pg2_1div3{
-  background-color: rgba(0,0,0, 0.7);
+  background-color: rgba(0,0,0, 0.8);
   width: 55%;
   /* height: 480px; */
   position: relative;
   margin: 50px auto 0;
-  box-shadow: 0 0 20px white;
+  box-shadow: inset 0 0 20px white;
   padding: 40px 30px;
   border-radius: 20px;
-  border: 2px solid white;
+  border:  1px solid white;
 }
 
 
@@ -323,14 +323,14 @@ body{
 .pg2_1div1 button , .pg2_1div2 button, .pg2_1div3 button{
   /* text-decoration: none; */
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
-  padding: 17px 35px;
+  padding: 15px 35px;
   border-radius: 20px;
   box-shadow: inset 0 0 10px #9800ff;
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  bottom: 40px;
+  right: 50px;
   background-image: linear-gradient(#9800ff,orange);
   border: none;
   cursor: pointer;
@@ -424,12 +424,13 @@ body{
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 15px 30px;
+  padding: 15px 30px !important;
   background-image: linear-gradient(#9800ff,orange);
   position: absolute;
   /* margin: 10px auto 10px; */
-  /* bottom: 60px; */
-  left: 35%;
+  bottom: 22px !important;
+  width: 200px;
+  left: 36% !important;
   /* float: right; */
   border-radius: 20px;
   box-shadow: inset 0 0 10px #9800ff;
@@ -793,9 +794,10 @@ del{
 #pg5{
   background-image: url("Images/pg5bg2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   /* width: 100%; */
-  height: 650px;
+  height: 700px;
   padding: 30px 0 40px 40px;
   position: relative;
 }
