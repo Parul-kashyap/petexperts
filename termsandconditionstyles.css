@@ -1,20 +1,22 @@
 .container{
   /* background-color: red; */
-  margin: 0 90px;
+  margin: 0 60px;
   padding: 40px;
 }
 
 .container h2{
-
+  margin: 15px 0;
 }
 
 .container p{
   margin-left: 10px;
   line-height: 23px;
+  font-size: 17px !important;
 }
 
-.container li{
+.container ul li{
   margin: 10px 0 10px 45px;
+  font-size: 20pt;
 }
 
 .container strong{
