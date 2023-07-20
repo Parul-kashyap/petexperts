@@ -322,15 +322,16 @@ input[type=radio].color{
 }
 #pggrooming2_24{
   display: none;
-  height: 450px;
+  height: 463px;
 }
 #pggrooming2_25{
   display: none;
-  height: 440px;
-  width: 63%;
+  height: 495px;
+  width: 65%;
 }
 #pggrooming2_25 li{
   font-size: 15px;
+  list-style-position: inside;
 }
 
 .deletepricegrooming{
@@ -360,12 +361,12 @@ small{
   float: left;
   /* background-color: blue; */
   margin-left: 20px;
-  width: 40%;
+  width: 49%;
 }
 
 .rightdiv{
   float: right;
   /* background-color: red; */
   margin-right: 40px;
-  width: 38%;
+  width: 36%;
 }

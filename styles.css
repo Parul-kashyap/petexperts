@@ -605,7 +605,7 @@ del{
 
 .pg2_2div1 , .pg2_2div2 , .pg2_2div3, .pg2_2div4, .pg2_2div5{
   background-color: rgba(0,0,0, 0.7);
-  width: 55%;
+  width: 57%;
   /* height: 480px; */
   position: relative;
   margin: 50px auto 0;
@@ -615,6 +615,9 @@ del{
   border: 2px solid white;
 }
 
+.pg2_2div4{
+  width: 62%;
+}
 
 .pg2_2div1 h2 , .pg2_2div2 h2, .pg2_2div3 h2, .pg2_2div4 h2, .pg2_2div5 h2{
   /* background-color: grey; */
