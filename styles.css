@@ -446,7 +446,7 @@ del{
 }
 /* BACKGROUND IMAGE */
 .bgimg{
-  background-image: url("Images/training.png");
+  background-image: url("Images/traning2.png");
   border-radius: 0 0 30px 30px;
   background-repeat:no-repeat;
   background-size: cover;
@@ -535,7 +535,7 @@ del{
   color: white;
   /* background-color: #1a1a1a; */
   /* background-image: url("Images/pg2_2bg3.jpg"); */
-  background-image: linear-gradient(#864d10,#ba552f);
+  background-image: linear-gradient(#2a3539,#300940);
   /* border-top: 1px solid white; */
   /* background-repeat: no-repeat;
   background-size: cover; */
