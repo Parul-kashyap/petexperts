@@ -888,7 +888,7 @@ del{
   width: 100%;
   height: 450px;
   opacity: 70%;
-  /* filter: brightness(40%); */
+  filter: brightness(70%);
   z-index: -1;
 }
 #footer h2{
@@ -918,7 +918,7 @@ del{
 }
 .footerdiv i{
   margin: 10px;
-  color: #9800ff;
+  color: #000;
 }
 .footerdiv i:hover{
   color: #9800ff;
